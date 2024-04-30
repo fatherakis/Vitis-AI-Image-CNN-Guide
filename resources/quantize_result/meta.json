@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "resnet20CIFAR_Versal.xmodel",
+    "kernel": [
+        "subgraph_CifarResNet__CifarResNet_AdaptiveAvgPool2d_avgpool__4165_fix"
+    ],
+    "target": "DPUCVDX8G_ISA3_C32B6"
+}

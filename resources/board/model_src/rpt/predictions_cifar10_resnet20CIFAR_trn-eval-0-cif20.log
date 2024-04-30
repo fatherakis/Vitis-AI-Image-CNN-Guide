@@ -1,0 +1,2808 @@
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+OUT  size 10
+IN   size 3072
+IN Height 32
+IN Width  32
+batchSize 6
+
+Image : horse_394.png
+top[0] prob = 0.999964  name = horse 
+top[1] prob = 0.000021  name = deer 
+top[2] prob = 0.000005  name = automobile 
+top[3] prob = 0.000004  name = truck
+top[4] prob = 0.000003  name = dog 
+
+Image : frog_187.png
+top[0] prob = 0.999997  name = frog 
+top[1] prob = 0.000001  name = cat 
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = automobile 
+
+Image : frog_154.png
+top[0] prob = 0.998433  name = frog 
+top[1] prob = 0.001501  name = cat 
+top[2] prob = 0.000021  name = dog 
+top[3] prob = 0.000013  name = bird 
+top[4] prob = 0.000010  name = ship 
+
+Image : automobile_236.png
+top[0] prob = 0.999989  name = automobile 
+top[1] prob = 0.000008  name = truck
+top[2] prob = 0.000003  name = ship 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = airplane 
+
+Image : automobile_46.png
+top[0] prob = 0.999567  name = automobile 
+top[1] prob = 0.000431  name = truck
+top[2] prob = 0.000001  name = ship 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000000  name = dog 
+
+Image : truck_274.png
+top[0] prob = 0.999664  name = truck
+top[1] prob = 0.000335  name = automobile 
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = ship 
+
+Image : ship_259.png
+top[0] prob = 0.999999  name = ship 
+top[1] prob = 0.000001  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = bird 
+
+Image : deer_98.png
+top[0] prob = 0.999991  name = deer 
+top[1] prob = 0.000008  name = frog 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = horse 
+
+Image : frog_298.png
+top[0] prob = 0.999719  name = frog 
+top[1] prob = 0.000075  name = automobile 
+top[2] prob = 0.000045  name = ship 
+top[3] prob = 0.000045  name = horse 
+top[4] prob = 0.000045  name = bird 
+
+Image : cat_59.png
+top[0] prob = 0.999736  name = cat 
+top[1] prob = 0.000123  name = truck
+top[2] prob = 0.000075  name = dog 
+top[3] prob = 0.000028  name = horse 
+top[4] prob = 0.000013  name = bird 
+
+Image : bird_121.png
+top[0] prob = 0.999703  name = bird 
+top[1] prob = 0.000261  name = deer 
+top[2] prob = 0.000028  name = cat 
+top[3] prob = 0.000004  name = ship 
+top[4] prob = 0.000003  name = airplane 
+
+Image : cat_314.png
+top[0] prob = 0.999734  name = cat 
+top[1] prob = 0.000261  name = bird 
+top[2] prob = 0.000003  name = deer 
+top[3] prob = 0.000001  name = horse 
+top[4] prob = 0.000001  name = dog 
+
+Image : horse_52.png
+top[0] prob = 0.999967  name = horse 
+top[1] prob = 0.000028  name = deer 
+top[2] prob = 0.000005  name = bird 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = dog 
+
+Image : ship_397.png
+top[0] prob = 0.993986  name = ship 
+top[1] prob = 0.004062  name = truck
+top[2] prob = 0.001494  name = airplane 
+top[3] prob = 0.000202  name = bird 
+top[4] prob = 0.000096  name = deer 
+
+Image : airplane_129.png
+top[0] prob = 0.999999  name = airplane 
+top[1] prob = 0.000001  name = bird 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = cat 
+
+Image : dog_337.png
+top[0] prob = 0.984615  name = dog 
+top[1] prob = 0.005167  name = horse 
+top[2] prob = 0.004024  name = deer 
+top[3] prob = 0.002441  name = frog 
+top[4] prob = 0.001153  name = ship 
+
+Image : bird_303.png
+top[0] prob = 0.922801  name = bird 
+top[1] prob = 0.075748  name = airplane 
+top[2] prob = 0.000655  name = dog 
+top[3] prob = 0.000510  name = ship 
+top[4] prob = 0.000114  name = frog 
+
+Image : cat_169.png
+top[0] prob = 0.999988  name = cat 
+top[1] prob = 0.000010  name = bird 
+top[2] prob = 0.000001  name = dog 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = airplane 
+
+Image : dog_195.png
+top[0] prob = 0.999837  name = dog 
+top[1] prob = 0.000096  name = truck
+top[2] prob = 0.000035  name = cat 
+top[3] prob = 0.000010  name = horse 
+top[4] prob = 0.000006  name = automobile 
+
+Image : frog_132.png
+top[0] prob = 0.999769  name = frog 
+top[1] prob = 0.000203  name = bird 
+top[2] prob = 0.000021  name = dog 
+top[3] prob = 0.000002  name = deer 
+top[4] prob = 0.000001  name = automobile 
+
+Image : dog_83.png
+top[0] prob = 0.999535  name = dog 
+top[1] prob = 0.000335  name = cat 
+top[2] prob = 0.000075  name = bird 
+top[3] prob = 0.000035  name = horse 
+top[4] prob = 0.000008  name = ship 
+
+Image : deer_3.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = horse 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = bird 
+
+Image : automobile_323.png
+top[0] prob = 0.999999  name = automobile 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = frog 
+
+Image : truck_14.png
+top[0] prob = 0.999905  name = truck
+top[1] prob = 0.000045  name = ship 
+top[2] prob = 0.000045  name = airplane 
+top[3] prob = 0.000002  name = automobile 
+top[4] prob = 0.000001  name = horse 
+
+Image : automobile_94.png
+top[0] prob = 0.999999  name = automobile 
+top[1] prob = 0.000001  name = truck
+top[2] prob = 0.000001  name = horse 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = frog 
+
+Image : automobile_364.png
+top[0] prob = 0.999978  name = automobile 
+top[1] prob = 0.000021  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = horse 
+
+Image : frog_245.png
+top[0] prob = 0.991341  name = frog 
+top[1] prob = 0.003155  name = deer 
+top[2] prob = 0.001490  name = dog 
+top[3] prob = 0.001490  name = bird 
+top[4] prob = 0.000904  name = cat 
+
+Image : cat_258.png
+top[0] prob = 0.990610  name = cat 
+top[1] prob = 0.008570  name = dog 
+top[2] prob = 0.000704  name = bird 
+top[3] prob = 0.000058  name = horse 
+top[4] prob = 0.000027  name = deer 
+
+Image : bird_171.png
+top[0] prob = 0.999999  name = bird 
+top[1] prob = 0.000001  name = airplane 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = frog 
+
+Image : truck_15.png
+top[0] prob = 1.000000  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = airplane 
+
+Image : bird_108.png
+top[0] prob = 0.999974  name = bird 
+top[1] prob = 0.000008  name = airplane 
+top[2] prob = 0.000006  name = ship 
+top[3] prob = 0.000005  name = cat 
+top[4] prob = 0.000004  name = frog 
+
+Image : ship_193.png
+top[0] prob = 0.998358  name = ship 
+top[1] prob = 0.001169  name = truck
+top[2] prob = 0.000203  name = bird 
+top[3] prob = 0.000096  name = frog 
+top[4] prob = 0.000075  name = dog 
+
+Image : ship_379.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = horse 
+
+Image : cat_241.png
+top[0] prob = 0.993500  name = cat 
+top[1] prob = 0.005213  name = dog 
+top[2] prob = 0.000549  name = bird 
+top[3] prob = 0.000428  name = frog 
+top[4] prob = 0.000202  name = deer 
+
+Image : cat_315.png
+top[0] prob = 0.999871  name = cat 
+top[1] prob = 0.000123  name = dog 
+top[2] prob = 0.000004  name = automobile 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000000  name = ship 
+
+Image : automobile_261.png
+top[0] prob = 0.999994  name = automobile 
+top[1] prob = 0.000006  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = dog 
+
+Image : horse_191.png
+top[0] prob = 0.996807  name = horse 
+top[1] prob = 0.000909  name = ship 
+top[2] prob = 0.000708  name = dog 
+top[3] prob = 0.000708  name = bird 
+top[4] prob = 0.000429  name = deer 
+
+Image : cat_159.png
+top[0] prob = 0.995036  name = cat 
+top[1] prob = 0.002466  name = truck
+top[2] prob = 0.000907  name = dog 
+top[3] prob = 0.000707  name = horse 
+top[4] prob = 0.000550  name = bird 
+
+Image : automobile_375.png
+top[0] prob = 0.997490  name = automobile 
+top[1] prob = 0.002473  name = truck
+top[2] prob = 0.000027  name = ship 
+top[3] prob = 0.000005  name = horse 
+top[4] prob = 0.000002  name = frog 
+
+Image : dog_182.png
+top[0] prob = 0.999987  name = dog 
+top[1] prob = 0.000010  name = cat 
+top[2] prob = 0.000002  name = horse 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = truck
+
+Image : bird_24.png
+top[0] prob = 0.996707  name = bird 
+top[1] prob = 0.002471  name = cat 
+top[2] prob = 0.000708  name = frog 
+top[3] prob = 0.000045  name = horse 
+top[4] prob = 0.000021  name = dog 
+
+Image : bird_42.png
+top[0] prob = 0.998367  name = bird 
+top[1] prob = 0.001501  name = deer 
+top[2] prob = 0.000045  name = horse 
+top[3] prob = 0.000027  name = dog 
+top[4] prob = 0.000021  name = cat 
+
+Image : truck_2.png
+top[0] prob = 0.999636  name = truck
+top[1] prob = 0.000158  name = ship 
+top[2] prob = 0.000123  name = airplane 
+top[3] prob = 0.000028  name = bird 
+top[4] prob = 0.000021  name = horse 
+
+Image : truck_316.png
+top[0] prob = 1.000000  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = horse 
+
+Image : automobile_206.png
+top[0] prob = 0.999992  name = automobile 
+top[1] prob = 0.000003  name = truck
+top[2] prob = 0.000001  name = cat 
+top[3] prob = 0.000001  name = bird 
+top[4] prob = 0.000001  name = horse 
+
+Image : dog_215.png
+top[0] prob = 0.999982  name = dog 
+top[1] prob = 0.000017  name = cat 
+top[2] prob = 0.000001  name = truck
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = frog 
+
+Image : airplane_371.png
+top[0] prob = 0.999992  name = airplane 
+top[1] prob = 0.000004  name = bird 
+top[2] prob = 0.000002  name = cat 
+top[3] prob = 0.000001  name = deer 
+top[4] prob = 0.000000  name = horse 
+
+Image : truck_202.png
+top[0] prob = 0.999996  name = truck
+top[1] prob = 0.000003  name = automobile 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = ship 
+
+Image : cat_91.png
+top[0] prob = 0.999964  name = cat 
+top[1] prob = 0.000035  name = dog 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = horse 
+
+Image : bird_281.png
+top[0] prob = 0.999975  name = bird 
+top[1] prob = 0.000017  name = deer 
+top[2] prob = 0.000005  name = airplane 
+top[3] prob = 0.000001  name = cat 
+top[4] prob = 0.000001  name = frog 
+
+Image : cat_150.png
+top[0] prob = 0.999563  name = cat 
+top[1] prob = 0.000431  name = dog 
+top[2] prob = 0.000002  name = deer 
+top[3] prob = 0.000001  name = automobile 
+top[4] prob = 0.000001  name = ship 
+
+Image : deer_363.png
+top[0] prob = 0.998493  name = deer 
+top[1] prob = 0.001501  name = airplane 
+top[2] prob = 0.000002  name = horse 
+top[3] prob = 0.000001  name = bird 
+top[4] prob = 0.000001  name = automobile 
+
+Image : frog_249.png
+top[0] prob = 0.999780  name = frog 
+top[1] prob = 0.000158  name = ship 
+top[2] prob = 0.000035  name = airplane 
+top[3] prob = 0.000010  name = bird 
+top[4] prob = 0.000006  name = automobile 
+
+Image : bird_63.png
+top[0] prob = 0.999844  name = bird 
+top[1] prob = 0.000058  name = horse 
+top[2] prob = 0.000028  name = truck
+top[3] prob = 0.000021  name = frog 
+top[4] prob = 0.000013  name = deer 
+
+Image : frog_22.png
+top[0] prob = 0.999805  name = frog 
+top[1] prob = 0.000075  name = deer 
+top[2] prob = 0.000075  name = bird 
+top[3] prob = 0.000017  name = cat 
+top[4] prob = 0.000008  name = ship 
+
+Image : truck_102.png
+top[0] prob = 0.999287  name = truck
+top[1] prob = 0.000710  name = automobile 
+top[2] prob = 0.000002  name = airplane 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = ship 
+
+Image : frog_327.png
+top[0] prob = 0.997233  name = frog 
+top[1] prob = 0.002472  name = deer 
+top[2] prob = 0.000123  name = truck
+top[3] prob = 0.000075  name = bird 
+top[4] prob = 0.000045  name = dog 
+
+Image : cat_377.png
+top[0] prob = 0.999998  name = cat 
+top[1] prob = 0.000001  name = frog 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = bird 
+
+Image : horse_329.png
+top[0] prob = 0.999839  name = horse 
+top[1] prob = 0.000158  name = deer 
+top[2] prob = 0.000001  name = airplane 
+top[3] prob = 0.000001  name = ship 
+top[4] prob = 0.000000  name = dog 
+
+Image : bird_356.png
+top[0] prob = 0.996491  name = bird 
+top[1] prob = 0.003172  name = frog 
+top[2] prob = 0.000203  name = deer 
+top[3] prob = 0.000075  name = cat 
+top[4] prob = 0.000027  name = dog 
+
+Image : automobile_119.png
+top[0] prob = 0.999719  name = automobile 
+top[1] prob = 0.000203  name = ship 
+top[2] prob = 0.000028  name = truck
+top[3] prob = 0.000021  name = airplane 
+top[4] prob = 0.000008  name = frog 
+
+Image : cat_207.png
+top[0] prob = 0.999984  name = cat 
+top[1] prob = 0.000008  name = frog 
+top[2] prob = 0.000003  name = truck
+top[3] prob = 0.000002  name = dog 
+top[4] prob = 0.000001  name = deer 
+
+Image : airplane_189.png
+top[0] prob = 0.999684  name = airplane 
+top[1] prob = 0.000123  name = truck
+top[2] prob = 0.000075  name = ship 
+top[3] prob = 0.000045  name = dog 
+top[4] prob = 0.000035  name = cat 
+
+Image : deer_10.png
+top[0] prob = 0.999967  name = deer 
+top[1] prob = 0.000021  name = cat 
+top[2] prob = 0.000006  name = frog 
+top[3] prob = 0.000004  name = bird 
+top[4] prob = 0.000001  name = dog 
+
+Image : airplane_332.png
+top[0] prob = 1.000000  name = airplane 
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = horse 
+
+Image : automobile_136.png
+top[0] prob = 0.999996  name = automobile 
+top[1] prob = 0.000003  name = truck
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = ship 
+
+Image : automobile_330.png
+top[0] prob = 0.999998  name = automobile 
+top[1] prob = 0.000001  name = truck
+top[2] prob = 0.000001  name = cat 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = frog 
+
+Image : ship_139.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = automobile 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = frog 
+
+Image : truck_71.png
+top[0] prob = 0.914832  name = truck
+top[1] prob = 0.045547  name = dog 
+top[2] prob = 0.035472  name = automobile 
+top[3] prob = 0.001375  name = cat 
+top[4] prob = 0.001071  name = horse 
+
+Image : airplane_344.png
+top[0] prob = 0.999998  name = airplane 
+top[1] prob = 0.000001  name = bird 
+top[2] prob = 0.000001  name = ship 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = truck
+
+Image : cat_80.png
+top[0] prob = 0.624351  name = cat 
+top[1] prob = 0.294923  name = truck
+top[2] prob = 0.051250  name = dog 
+top[3] prob = 0.018854  name = airplane 
+top[4] prob = 0.005402  name = horse 
+
+Image : ship_92.png
+top[0] prob = 0.999512  name = ship 
+top[1] prob = 0.000335  name = airplane 
+top[2] prob = 0.000075  name = dog 
+top[3] prob = 0.000045  name = deer 
+top[4] prob = 0.000013  name = frog 
+
+Image : automobile_227.png
+top[0] prob = 0.997898  name = automobile 
+top[1] prob = 0.000910  name = ship 
+top[2] prob = 0.000709  name = truck
+top[3] prob = 0.000430  name = airplane 
+top[4] prob = 0.000017  name = frog 
+
+Image : dog_157.png
+top[0] prob = 0.997202  name = dog 
+top[1] prob = 0.002472  name = cat 
+top[2] prob = 0.000261  name = bird 
+top[3] prob = 0.000045  name = deer 
+top[4] prob = 0.000008  name = horse 
+
+Image : horse_181.png
+top[0] prob = 0.999840  name = horse 
+top[1] prob = 0.000158  name = dog 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = automobile 
+
+Image : dog_40.png
+top[0] prob = 0.999785  name = dog 
+top[1] prob = 0.000123  name = cat 
+top[2] prob = 0.000075  name = bird 
+top[3] prob = 0.000006  name = deer 
+top[4] prob = 0.000005  name = frog 
+
+Image : automobile_304.png
+top[0] prob = 0.999995  name = automobile 
+top[1] prob = 0.000004  name = ship 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = dog 
+
+Image : automobile_302.png
+top[0] prob = 0.999997  name = automobile 
+top[1] prob = 0.000001  name = cat 
+top[2] prob = 0.000001  name = ship 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : automobile_176.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = dog 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = ship 
+
+Image : dog_217.png
+top[0] prob = 0.999551  name = dog 
+top[1] prob = 0.000431  name = cat 
+top[2] prob = 0.000006  name = deer 
+top[3] prob = 0.000005  name = frog 
+top[4] prob = 0.000005  name = automobile 
+
+Image : dog_239.png
+top[0] prob = 0.999993  name = dog 
+top[1] prob = 0.000004  name = cat 
+top[2] prob = 0.000001  name = truck
+top[3] prob = 0.000001  name = bird 
+top[4] prob = 0.000000  name = horse 
+
+Image : ship_106.png
+top[0] prob = 0.999999  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = truck
+
+Image : automobile_393.png
+top[0] prob = 0.997362  name = automobile 
+top[1] prob = 0.001499  name = truck
+top[2] prob = 0.000552  name = airplane 
+top[3] prob = 0.000261  name = ship 
+top[4] prob = 0.000203  name = horse 
+
+Image : deer_247.png
+top[0] prob = 0.999995  name = deer 
+top[1] prob = 0.000002  name = bird 
+top[2] prob = 0.000002  name = ship 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = cat 
+
+Image : bird_144.png
+top[0] prob = 0.999952  name = bird 
+top[1] prob = 0.000035  name = airplane 
+top[2] prob = 0.000008  name = deer 
+top[3] prob = 0.000002  name = cat 
+top[4] prob = 0.000001  name = ship 
+
+Image : truck_31.png
+top[0] prob = 0.999941  name = truck
+top[1] prob = 0.000028  name = automobile 
+top[2] prob = 0.000021  name = ship 
+top[3] prob = 0.000004  name = dog 
+top[4] prob = 0.000004  name = cat 
+
+Image : bird_196.png
+top[0] prob = 0.999960  name = bird 
+top[1] prob = 0.000021  name = frog 
+top[2] prob = 0.000013  name = deer 
+top[3] prob = 0.000002  name = dog 
+top[4] prob = 0.000001  name = cat 
+
+Image : truck_273.png
+top[0] prob = 0.999705  name = truck
+top[1] prob = 0.000123  name = automobile 
+top[2] prob = 0.000096  name = airplane 
+top[3] prob = 0.000021  name = horse 
+top[4] prob = 0.000017  name = dog 
+
+Image : ship_170.png
+top[0] prob = 0.995484  name = ship 
+top[1] prob = 0.004068  name = automobile 
+top[2] prob = 0.000260  name = cat 
+top[3] prob = 0.000075  name = frog 
+top[4] prob = 0.000045  name = bird 
+
+Image : automobile_105.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = dog 
+
+Image : frog_124.png
+top[0] prob = 0.999999  name = frog 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = deer 
+
+Image : horse_85.png
+top[0] prob = 0.997979  name = horse 
+top[1] prob = 0.001169  name = cat 
+top[2] prob = 0.000430  name = bird 
+top[3] prob = 0.000335  name = frog 
+top[4] prob = 0.000035  name = dog 
+
+Image : cat_331.png
+top[0] prob = 0.999980  name = cat 
+top[1] prob = 0.000013  name = dog 
+top[2] prob = 0.000004  name = horse 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000001  name = deer 
+
+Image : horse_382.png
+top[0] prob = 0.999997  name = horse 
+top[1] prob = 0.000001  name = dog 
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = automobile 
+
+Image : airplane_317.png
+top[0] prob = 0.999952  name = airplane 
+top[1] prob = 0.000045  name = ship 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000001  name = bird 
+top[4] prob = 0.000000  name = automobile 
+
+Image : airplane_352.png
+top[0] prob = 0.999943  name = airplane 
+top[1] prob = 0.000045  name = automobile 
+top[2] prob = 0.000006  name = truck
+top[3] prob = 0.000004  name = deer 
+top[4] prob = 0.000001  name = ship 
+
+Image : truck_188.png
+top[0] prob = 0.999999  name = truck
+top[1] prob = 0.000000  name = cat 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = ship 
+
+Image : dog_285.png
+top[0] prob = 0.993908  name = dog 
+top[1] prob = 0.005216  name = cat 
+top[2] prob = 0.000706  name = horse 
+top[3] prob = 0.000096  name = truck
+top[4] prob = 0.000027  name = automobile 
+
+Image : truck_219.png
+top[0] prob = 1.000000  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = cat 
+
+Image : deer_175.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = horse 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = cat 
+
+Image : frog_326.png
+top[0] prob = 0.999427  name = frog 
+top[1] prob = 0.000261  name = truck
+top[2] prob = 0.000096  name = cat 
+top[3] prob = 0.000058  name = bird 
+top[4] prob = 0.000058  name = automobile 
+
+Image : truck_340.png
+top[0] prob = 0.999999  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = airplane 
+
+Image : deer_310.png
+top[0] prob = 0.983766  name = deer 
+top[1] prob = 0.014033  name = bird 
+top[2] prob = 0.000897  name = ship 
+top[3] prob = 0.000424  name = horse 
+top[4] prob = 0.000424  name = airplane 
+
+Image : deer_268.png
+top[0] prob = 0.999985  name = deer 
+top[1] prob = 0.000008  name = dog 
+top[2] prob = 0.000005  name = bird 
+top[3] prob = 0.000001  name = horse 
+top[4] prob = 0.000001  name = cat 
+
+Image : ship_190.png
+top[0] prob = 0.999881  name = ship 
+top[1] prob = 0.000096  name = airplane 
+top[2] prob = 0.000021  name = automobile 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = deer 
+
+Image : deer_86.png
+top[0] prob = 0.999945  name = deer 
+top[1] prob = 0.000017  name = horse 
+top[2] prob = 0.000017  name = bird 
+top[3] prob = 0.000013  name = cat 
+top[4] prob = 0.000003  name = dog 
+
+Image : automobile_97.png
+top[0] prob = 0.999036  name = automobile 
+top[1] prob = 0.000553  name = truck
+top[2] prob = 0.000203  name = frog 
+top[3] prob = 0.000123  name = ship 
+top[4] prob = 0.000045  name = horse 
+
+Image : ship_246.png
+top[0] prob = 0.996698  name = ship 
+top[1] prob = 0.002471  name = truck
+top[2] prob = 0.000260  name = horse 
+top[3] prob = 0.000260  name = dog 
+top[4] prob = 0.000260  name = airplane 
+
+Image : automobile_112.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = airplane 
+
+Image : horse_114.png
+top[0] prob = 0.999978  name = horse 
+top[1] prob = 0.000017  name = deer 
+top[2] prob = 0.000003  name = dog 
+top[3] prob = 0.000001  name = automobile 
+top[4] prob = 0.000001  name = cat 
+
+Image : dog_177.png
+top[0] prob = 0.999965  name = dog 
+top[1] prob = 0.000013  name = horse 
+top[2] prob = 0.000013  name = deer 
+top[3] prob = 0.000006  name = bird 
+top[4] prob = 0.000002  name = truck
+
+Image : deer_381.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = frog 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = dog 
+
+Image : horse_113.png
+top[0] prob = 0.999998  name = horse 
+top[1] prob = 0.000001  name = deer 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = airplane 
+
+Image : truck_109.png
+top[0] prob = 0.999998  name = truck
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = automobile 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = horse 
+
+Image : deer_20.png
+top[0] prob = 0.999999  name = deer 
+top[1] prob = 0.000001  name = dog 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = horse 
+
+Image : truck_67.png
+top[0] prob = 0.999979  name = truck
+top[1] prob = 0.000008  name = ship 
+top[2] prob = 0.000008  name = automobile 
+top[3] prob = 0.000002  name = horse 
+top[4] prob = 0.000001  name = airplane 
+
+Image : ship_291.png
+top[0] prob = 0.999770  name = ship 
+top[1] prob = 0.000075  name = deer 
+top[2] prob = 0.000035  name = automobile 
+top[3] prob = 0.000028  name = horse 
+top[4] prob = 0.000028  name = cat 
+
+Image : airplane_49.png
+top[0] prob = 0.999894  name = airplane 
+top[1] prob = 0.000096  name = cat 
+top[2] prob = 0.000006  name = horse 
+top[3] prob = 0.000002  name = dog 
+top[4] prob = 0.000001  name = bird 
+
+Image : frog_23.png
+top[0] prob = 0.998933  name = frog 
+top[1] prob = 0.000552  name = cat 
+top[2] prob = 0.000430  name = bird 
+top[3] prob = 0.000045  name = deer 
+top[4] prob = 0.000010  name = automobile 
+
+Image : frog_313.png
+top[0] prob = 0.999969  name = frog 
+top[1] prob = 0.000010  name = ship 
+top[2] prob = 0.000010  name = bird 
+top[3] prob = 0.000005  name = airplane 
+top[4] prob = 0.000004  name = cat 
+
+Image : horse_37.png
+top[0] prob = 0.999892  name = horse 
+top[1] prob = 0.000058  name = dog 
+top[2] prob = 0.000045  name = bird 
+top[3] prob = 0.000002  name = deer 
+top[4] prob = 0.000001  name = truck
+
+Image : horse_320.png
+top[0] prob = 0.999903  name = horse 
+top[1] prob = 0.000096  name = deer 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = ship 
+
+Image : horse_318.png
+top[0] prob = 0.999269  name = horse 
+top[1] prob = 0.000430  name = frog 
+top[2] prob = 0.000123  name = truck
+top[3] prob = 0.000075  name = dog 
+top[4] prob = 0.000045  name = airplane 
+
+Image : truck_186.png
+top[0] prob = 0.999999  name = truck
+top[1] prob = 0.000001  name = automobile 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = ship 
+
+Image : automobile_282.png
+top[0] prob = 0.999835  name = automobile 
+top[1] prob = 0.000158  name = frog 
+top[2] prob = 0.000002  name = truck
+top[3] prob = 0.000001  name = ship 
+top[4] prob = 0.000001  name = cat 
+
+Image : airplane_341.png
+top[0] prob = 0.999991  name = airplane 
+top[1] prob = 0.000008  name = ship 
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = truck
+
+Image : truck_147.png
+top[0] prob = 0.999953  name = truck
+top[1] prob = 0.000017  name = ship 
+top[2] prob = 0.000017  name = automobile 
+top[3] prob = 0.000008  name = airplane 
+top[4] prob = 0.000002  name = horse 
+
+Image : frog_347.png
+top[0] prob = 0.999934  name = frog 
+top[1] prob = 0.000058  name = deer 
+top[2] prob = 0.000005  name = cat 
+top[3] prob = 0.000001  name = bird 
+top[4] prob = 0.000000  name = truck
+
+Image : bird_138.png
+top[0] prob = 0.999996  name = bird 
+top[1] prob = 0.000001  name = deer 
+top[2] prob = 0.000001  name = cat 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000001  name = airplane 
+
+Image : automobile_5.png
+top[0] prob = 0.999978  name = automobile 
+top[1] prob = 0.000021  name = truck
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = cat 
+
+Image : horse_391.png
+top[0] prob = 0.999980  name = horse 
+top[1] prob = 0.000017  name = deer 
+top[2] prob = 0.000001  name = automobile 
+top[3] prob = 0.000001  name = dog 
+top[4] prob = 0.000001  name = bird 
+
+Image : automobile_255.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = ship 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : frog_232.png
+top[0] prob = 0.991955  name = frog 
+top[1] prob = 0.003157  name = cat 
+top[2] prob = 0.003157  name = bird 
+top[3] prob = 0.001491  name = deer 
+top[4] prob = 0.000095  name = ship 
+
+Image : truck_166.png
+top[0] prob = 0.960459  name = truck
+top[1] prob = 0.029003  name = automobile 
+top[2] prob = 0.005040  name = cat 
+top[3] prob = 0.002381  name = ship 
+top[4] prob = 0.002381  name = dog 
+
+Image : automobile_325.png
+top[0] prob = 0.999961  name = automobile 
+top[1] prob = 0.000035  name = ship 
+top[2] prob = 0.000001  name = dog 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000001  name = deer 
+
+Image : deer_346.png
+top[0] prob = 0.996147  name = deer 
+top[1] prob = 0.001498  name = bird 
+top[2] prob = 0.000908  name = horse 
+top[3] prob = 0.000908  name = dog 
+top[4] prob = 0.000334  name = frog 
+
+Image : horse_84.png
+top[0] prob = 0.997220  name = horse 
+top[1] prob = 0.001499  name = dog 
+top[2] prob = 0.000909  name = deer 
+top[3] prob = 0.000261  name = bird 
+top[4] prob = 0.000035  name = truck
+
+Image : airplane_93.png
+top[0] prob = 1.000000  name = airplane 
+top[1] prob = 0.000000  name = deer 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = bird 
+
+Image : deer_378.png
+top[0] prob = 0.995357  name = deer 
+top[1] prob = 0.004068  name = horse 
+top[2] prob = 0.000429  name = dog 
+top[3] prob = 0.000096  name = bird 
+top[4] prob = 0.000027  name = truck
+
+Image : dog_183.png
+top[0] prob = 0.999637  name = dog 
+top[1] prob = 0.000158  name = cat 
+top[2] prob = 0.000096  name = frog 
+top[3] prob = 0.000035  name = deer 
+top[4] prob = 0.000021  name = automobile 
+
+Image : frog_151.png
+top[0] prob = 0.980651  name = frog 
+top[1] prob = 0.010894  name = bird 
+top[2] prob = 0.003121  name = cat 
+top[3] prob = 0.002431  name = deer 
+top[4] prob = 0.001893  name = ship 
+
+Image : automobile_96.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = frog 
+
+Image : airplane_29.png
+top[0] prob = 0.939863  name = airplane 
+top[1] prob = 0.046793  name = ship 
+top[2] prob = 0.006333  name = deer 
+top[3] prob = 0.002991  name = horse 
+top[4] prob = 0.001814  name = automobile 
+
+Image : frog_103.png
+top[0] prob = 0.997535  name = frog 
+top[1] prob = 0.001168  name = automobile 
+top[2] prob = 0.000910  name = truck
+top[3] prob = 0.000158  name = cat 
+top[4] prob = 0.000096  name = ship 
+
+Image : automobile_250.png
+top[0] prob = 0.999944  name = automobile 
+top[1] prob = 0.000045  name = ship 
+top[2] prob = 0.000005  name = frog 
+top[3] prob = 0.000003  name = airplane 
+top[4] prob = 0.000002  name = cat 
+
+Image : automobile_257.png
+top[0] prob = 0.999652  name = automobile 
+top[1] prob = 0.000335  name = ship 
+top[2] prob = 0.000005  name = truck
+top[3] prob = 0.000002  name = frog 
+top[4] prob = 0.000002  name = airplane 
+
+Image : automobile_99.png
+top[0] prob = 0.999999  name = automobile 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = dog 
+
+Image : truck_295.png
+top[0] prob = 0.999998  name = truck
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000001  name = automobile 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = cat 
+
+Image : cat_142.png
+top[0] prob = 0.951380  name = cat 
+top[1] prob = 0.036889  name = airplane 
+top[2] prob = 0.006410  name = bird 
+top[3] prob = 0.003028  name = dog 
+top[4] prob = 0.001430  name = horse 
+
+Image : ship_222.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = automobile 
+
+Image : automobile_201.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = dog 
+
+Image : frog_19.png
+top[0] prob = 0.994977  name = frog 
+top[1] prob = 0.002466  name = automobile 
+top[2] prob = 0.000707  name = bird 
+top[3] prob = 0.000550  name = truck
+top[4] prob = 0.000429  name = cat 
+
+Image : ship_280.png
+top[0] prob = 0.999997  name = ship 
+top[1] prob = 0.000001  name = truck
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000001  name = airplane 
+top[4] prob = 0.000000  name = bird 
+
+Image : truck_269.png
+top[0] prob = 0.999990  name = truck
+top[1] prob = 0.000010  name = automobile 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = horse 
+
+Image : bird_123.png
+top[0] prob = 0.991157  name = bird 
+top[1] prob = 0.005201  name = cat 
+top[2] prob = 0.003155  name = deer 
+top[3] prob = 0.000332  name = frog 
+top[4] prob = 0.000074  name = airplane 
+
+Image : dog_374.png
+top[0] prob = 0.999942  name = dog 
+top[1] prob = 0.000035  name = cat 
+top[2] prob = 0.000013  name = automobile 
+top[3] prob = 0.000004  name = horse 
+top[4] prob = 0.000002  name = frog 
+
+Image : ship_309.png
+top[0] prob = 0.999671  name = ship 
+top[1] prob = 0.000203  name = truck
+top[2] prob = 0.000096  name = airplane 
+top[3] prob = 0.000008  name = bird 
+top[4] prob = 0.000006  name = automobile 
+
+Image : frog_242.png
+top[0] prob = 0.937904  name = frog 
+top[1] prob = 0.059958  name = deer 
+top[2] prob = 0.001098  name = cat 
+top[3] prob = 0.000666  name = dog 
+top[4] prob = 0.000090  name = bird 
+
+Image : horse_386.png
+top[0] prob = 0.999997  name = horse 
+top[1] prob = 0.000002  name = dog 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = truck
+
+Image : horse_11.png
+top[0] prob = 0.998451  name = horse 
+top[1] prob = 0.001169  name = cat 
+top[2] prob = 0.000158  name = deer 
+top[3] prob = 0.000096  name = dog 
+top[4] prob = 0.000058  name = bird 
+
+Image : bird_194.png
+top[0] prob = 0.997498  name = bird 
+top[1] prob = 0.001926  name = frog 
+top[2] prob = 0.000430  name = dog 
+top[3] prob = 0.000058  name = horse 
+top[4] prob = 0.000027  name = ship 
+
+Image : frog_200.png
+top[0] prob = 0.997956  name = frog 
+top[1] prob = 0.001927  name = bird 
+top[2] prob = 0.000058  name = automobile 
+top[3] prob = 0.000021  name = dog 
+top[4] prob = 0.000017  name = cat 
+
+Image : ship_216.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = automobile 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = cat 
+
+Image : dog_148.png
+top[0] prob = 0.998219  name = dog 
+top[1] prob = 0.001501  name = cat 
+top[2] prob = 0.000075  name = truck
+top[3] prob = 0.000075  name = horse 
+top[4] prob = 0.000075  name = deer 
+
+Image : deer_399.png
+top[0] prob = 0.984784  name = deer 
+top[1] prob = 0.008520  name = frog 
+top[2] prob = 0.004025  name = cat 
+top[3] prob = 0.002441  name = bird 
+top[4] prob = 0.000122  name = dog 
+
+Image : horse_230.png
+top[0] prob = 0.999466  name = horse 
+top[1] prob = 0.000431  name = truck
+top[2] prob = 0.000045  name = dog 
+top[3] prob = 0.000028  name = cat 
+top[4] prob = 0.000021  name = airplane 
+
+Image : ship_135.png
+top[0] prob = 0.999945  name = ship 
+top[1] prob = 0.000035  name = airplane 
+top[2] prob = 0.000006  name = truck
+top[3] prob = 0.000003  name = cat 
+top[4] prob = 0.000003  name = automobile 
+
+Image : deer_299.png
+top[0] prob = 0.998070  name = deer 
+top[1] prob = 0.001927  name = bird 
+top[2] prob = 0.000001  name = cat 
+top[3] prob = 0.000001  name = horse 
+top[4] prob = 0.000001  name = frog 
+
+Image : frog_248.png
+top[0] prob = 0.997700  name = frog 
+top[1] prob = 0.000910  name = cat 
+top[2] prob = 0.000709  name = truck
+top[3] prob = 0.000261  name = bird 
+top[4] prob = 0.000158  name = ship 
+
+Image : frog_368.png
+top[0] prob = 0.999842  name = frog 
+top[1] prob = 0.000075  name = dog 
+top[2] prob = 0.000045  name = cat 
+top[3] prob = 0.000028  name = bird 
+top[4] prob = 0.000006  name = deer 
+
+Image : deer_89.png
+top[0] prob = 0.986799  name = deer 
+top[1] prob = 0.006649  name = bird 
+top[2] prob = 0.003141  name = horse 
+top[3] prob = 0.001905  name = ship 
+top[4] prob = 0.000900  name = dog 
+
+Image : cat_21.png
+top[0] prob = 0.850497  name = cat 
+top[1] prob = 0.147794  name = dog 
+top[2] prob = 0.001279  name = airplane 
+top[3] prob = 0.000285  name = frog 
+top[4] prob = 0.000135  name = automobile 
+
+Image : cat_342.png
+top[0] prob = 0.968975  name = cat 
+top[1] prob = 0.029261  name = frog 
+top[2] prob = 0.001135  name = dog 
+top[3] prob = 0.000253  name = horse 
+top[4] prob = 0.000154  name = deer 
+
+Image : frog_351.png
+top[0] prob = 0.999828  name = frog 
+top[1] prob = 0.000075  name = cat 
+top[2] prob = 0.000035  name = dog 
+top[3] prob = 0.000021  name = deer 
+top[4] prob = 0.000017  name = automobile 
+
+Image : cat_39.png
+top[0] prob = 0.811870  name = cat 
+top[1] prob = 0.109875  name = deer 
+top[2] prob = 0.066642  name = bird 
+top[3] prob = 0.004260  name = airplane 
+top[4] prob = 0.002584  name = horse 
+
+Image : automobile_354.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = frog 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = airplane 
+
+Image : truck_306.png
+top[0] prob = 0.999942  name = truck
+top[1] prob = 0.000058  name = automobile 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = ship 
+
+Image : deer_398.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = horse 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = ship 
+
+Image : frog_164.png
+top[0] prob = 0.999957  name = frog 
+top[1] prob = 0.000021  name = automobile 
+top[2] prob = 0.000010  name = cat 
+top[3] prob = 0.000005  name = ship 
+top[4] prob = 0.000004  name = deer 
+
+Image : airplane_376.png
+top[0] prob = 0.999996  name = airplane 
+top[1] prob = 0.000002  name = ship 
+top[2] prob = 0.000001  name = horse 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = bird 
+
+Image : automobile_61.png
+top[0] prob = 0.999625  name = automobile 
+top[1] prob = 0.000335  name = truck
+top[2] prob = 0.000013  name = airplane 
+top[3] prob = 0.000010  name = ship 
+top[4] prob = 0.000006  name = frog 
+
+Image : cat_17.png
+top[0] prob = 0.999899  name = cat 
+top[1] prob = 0.000096  name = dog 
+top[2] prob = 0.000002  name = deer 
+top[3] prob = 0.000001  name = horse 
+top[4] prob = 0.000001  name = automobile 
+
+Image : horse_133.png
+top[0] prob = 1.000000  name = horse 
+top[1] prob = 0.000000  name = dog 
+top[2] prob = 0.000000  name = automobile 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = airplane 
+
+Image : frog_209.png
+top[0] prob = 0.991312  name = frog 
+top[1] prob = 0.008577  name = ship 
+top[2] prob = 0.000045  name = truck
+top[3] prob = 0.000035  name = automobile 
+top[4] prob = 0.000013  name = deer 
+
+Image : bird_288.png
+top[0] prob = 0.999049  name = bird 
+top[1] prob = 0.000430  name = dog 
+top[2] prob = 0.000430  name = deer 
+top[3] prob = 0.000035  name = airplane 
+top[4] prob = 0.000028  name = cat 
+
+Image : dog_56.png
+top[0] prob = 0.999998  name = dog 
+top[1] prob = 0.000001  name = cat 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = bird 
+
+Image : dog_128.png
+top[0] prob = 0.991834  name = dog 
+top[1] prob = 0.004053  name = horse 
+top[2] prob = 0.004053  name = cat 
+top[3] prob = 0.000027  name = truck
+top[4] prob = 0.000013  name = deer 
+
+Image : truck_208.png
+top[0] prob = 0.999872  name = truck
+top[1] prob = 0.000123  name = automobile 
+top[2] prob = 0.000004  name = ship 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = horse 
+
+Image : horse_362.png
+top[0] prob = 0.996783  name = horse 
+top[1] prob = 0.003173  name = dog 
+top[2] prob = 0.000010  name = truck
+top[3] prob = 0.000010  name = deer 
+top[4] prob = 0.000010  name = cat 
+
+Image : ship_62.png
+top[0] prob = 0.999990  name = ship 
+top[1] prob = 0.000008  name = airplane 
+top[2] prob = 0.000001  name = automobile 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : deer_158.png
+top[0] prob = 0.999983  name = deer 
+top[1] prob = 0.000017  name = horse 
+top[2] prob = 0.000000  name = automobile 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = dog 
+
+Image : cat_370.png
+top[0] prob = 0.991409  name = cat 
+top[1] prob = 0.003155  name = bird 
+top[2] prob = 0.002457  name = truck
+top[3] prob = 0.002457  name = dog 
+top[4] prob = 0.000202  name = horse 
+
+Image : airplane_77.png
+top[0] prob = 0.996763  name = airplane 
+top[1] prob = 0.001924  name = cat 
+top[2] prob = 0.001167  name = dog 
+top[3] prob = 0.000058  name = ship 
+top[4] prob = 0.000045  name = horse 
+
+Image : bird_48.png
+top[0] prob = 0.999801  name = bird 
+top[1] prob = 0.000158  name = horse 
+top[2] prob = 0.000035  name = deer 
+top[3] prob = 0.000002  name = dog 
+top[4] prob = 0.000001  name = ship 
+
+Image : truck_278.png
+top[0] prob = 1.000000  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = horse 
+
+Image : horse_366.png
+top[0] prob = 0.991817  name = horse 
+top[1] prob = 0.006683  name = dog 
+top[2] prob = 0.001161  name = truck
+top[3] prob = 0.000122  name = cat 
+top[4] prob = 0.000095  name = deer 
+
+Image : horse_7.png
+top[0] prob = 0.999993  name = horse 
+top[1] prob = 0.000004  name = deer 
+top[2] prob = 0.000001  name = dog 
+top[3] prob = 0.000001  name = bird 
+top[4] prob = 0.000001  name = automobile 
+
+Image : cat_33.png
+top[0] prob = 0.999999  name = cat 
+top[1] prob = 0.000000  name = deer 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = bird 
+
+Image : airplane_220.png
+top[0] prob = 0.999778  name = airplane 
+top[1] prob = 0.000203  name = ship 
+top[2] prob = 0.000017  name = bird 
+top[3] prob = 0.000001  name = deer 
+top[4] prob = 0.000001  name = horse 
+
+Image : frog_72.png
+top[0] prob = 0.991506  name = frog 
+top[1] prob = 0.006681  name = truck
+top[2] prob = 0.001161  name = dog 
+top[3] prob = 0.000259  name = bird 
+top[4] prob = 0.000202  name = automobile 
+
+Image : horse_178.png
+top[0] prob = 0.997997  name = horse 
+top[1] prob = 0.001927  name = deer 
+top[2] prob = 0.000027  name = frog 
+top[3] prob = 0.000017  name = dog 
+top[4] prob = 0.000013  name = bird 
+
+Image : frog_0.png
+top[0] prob = 0.999991  name = frog 
+top[1] prob = 0.000005  name = cat 
+top[2] prob = 0.000001  name = dog 
+top[3] prob = 0.000001  name = automobile 
+top[4] prob = 0.000001  name = ship 
+
+Image : truck_122.png
+top[0] prob = 0.999991  name = truck
+top[1] prob = 0.000008  name = automobile 
+top[2] prob = 0.000001  name = ship 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = airplane 
+
+Image : cat_38.png
+top[0] prob = 0.991726  name = cat 
+top[1] prob = 0.005204  name = dog 
+top[2] prob = 0.000904  name = automobile 
+top[3] prob = 0.000904  name = airplane 
+top[4] prob = 0.000549  name = ship 
+
+Image : airplane_199.png
+top[0] prob = 0.999998  name = airplane 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = automobile 
+
+Image : cat_141.png
+top[0] prob = 0.984050  name = cat 
+top[1] prob = 0.014037  name = deer 
+top[2] prob = 0.001152  name = frog 
+top[3] prob = 0.000699  name = dog 
+top[4] prob = 0.000035  name = airplane 
+
+Image : frog_234.png
+top[0] prob = 0.999981  name = frog 
+top[1] prob = 0.000013  name = cat 
+top[2] prob = 0.000002  name = bird 
+top[3] prob = 0.000001  name = automobile 
+top[4] prob = 0.000001  name = dog 
+
+Image : airplane_213.png
+top[0] prob = 1.000000  name = airplane 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = automobile 
+
+Image : frog_387.png
+top[0] prob = 0.999299  name = frog 
+top[1] prob = 0.000430  name = deer 
+top[2] prob = 0.000203  name = cat 
+top[3] prob = 0.000035  name = bird 
+top[4] prob = 0.000008  name = truck
+
+Image : cat_74.png
+top[0] prob = 0.983620  name = cat 
+top[1] prob = 0.014031  name = dog 
+top[2] prob = 0.001899  name = bird 
+top[3] prob = 0.000156  name = deer 
+top[4] prob = 0.000121  name = horse 
+
+Image : deer_343.png
+top[0] prob = 0.999975  name = deer 
+top[1] prob = 0.000021  name = horse 
+top[2] prob = 0.000001  name = dog 
+top[3] prob = 0.000001  name = automobile 
+top[4] prob = 0.000001  name = ship 
+
+Image : horse_87.png
+top[0] prob = 0.999951  name = horse 
+top[1] prob = 0.000021  name = deer 
+top[2] prob = 0.000017  name = dog 
+top[3] prob = 0.000008  name = bird 
+top[4] prob = 0.000002  name = automobile 
+
+Image : automobile_60.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = ship 
+
+Image : truck_110.png
+top[0] prob = 0.977432  name = truck
+top[1] prob = 0.017902  name = ship 
+top[2] prob = 0.003995  name = automobile 
+top[3] prob = 0.000328  name = airplane 
+top[4] prob = 0.000121  name = frog 
+
+Image : automobile_44.png
+top[0] prob = 0.999575  name = automobile 
+top[1] prob = 0.000335  name = truck
+top[2] prob = 0.000028  name = frog 
+top[3] prob = 0.000021  name = ship 
+top[4] prob = 0.000017  name = airplane 
+
+Image : ship_365.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = deer 
+
+Image : truck_270.png
+top[0] prob = 0.999446  name = truck
+top[1] prob = 0.000261  name = automobile 
+top[2] prob = 0.000123  name = frog 
+top[3] prob = 0.000075  name = ship 
+top[4] prob = 0.000058  name = horse 
+
+Image : dog_81.png
+top[0] prob = 0.997140  name = dog 
+top[1] prob = 0.001168  name = cat 
+top[2] prob = 0.000708  name = horse 
+top[3] prob = 0.000552  name = bird 
+top[4] prob = 0.000203  name = deer 
+
+Image : cat_78.png
+top[0] prob = 0.995145  name = cat 
+top[1] prob = 0.003167  name = truck
+top[2] prob = 0.000907  name = horse 
+top[3] prob = 0.000550  name = frog 
+top[4] prob = 0.000123  name = dog 
+
+Image : frog_125.png
+top[0] prob = 0.999883  name = frog 
+top[1] prob = 0.000096  name = cat 
+top[2] prob = 0.000008  name = dog 
+top[3] prob = 0.000004  name = truck
+top[4] prob = 0.000004  name = automobile 
+
+Image : bird_18.png
+top[0] prob = 0.997449  name = bird 
+top[1] prob = 0.001168  name = frog 
+top[2] prob = 0.001168  name = cat 
+top[3] prob = 0.000123  name = ship 
+top[4] prob = 0.000035  name = dog 
+
+Image : automobile_134.png
+top[0] prob = 0.999999  name = automobile 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = truck
+
+Image : bird_90.png
+top[0] prob = 0.934767  name = bird 
+top[1] prob = 0.046539  name = airplane 
+top[2] prob = 0.017121  name = cat 
+top[3] prob = 0.000852  name = frog 
+top[4] prob = 0.000314  name = deer 
+
+Image : truck_76.png
+top[0] prob = 0.995370  name = truck
+top[1] prob = 0.004068  name = automobile 
+top[2] prob = 0.000203  name = horse 
+top[3] prob = 0.000158  name = ship 
+top[4] prob = 0.000096  name = airplane 
+
+Image : cat_333.png
+top[0] prob = 0.999829  name = cat 
+top[1] prob = 0.000096  name = bird 
+top[2] prob = 0.000021  name = deer 
+top[3] prob = 0.000017  name = frog 
+top[4] prob = 0.000017  name = dog 
+
+Image : dog_260.png
+top[0] prob = 0.998758  name = dog 
+top[1] prob = 0.000911  name = deer 
+top[2] prob = 0.000261  name = horse 
+top[3] prob = 0.000045  name = cat 
+top[4] prob = 0.000006  name = ship 
+
+Image : ship_252.png
+top[0] prob = 0.999971  name = ship 
+top[1] prob = 0.000013  name = airplane 
+top[2] prob = 0.000008  name = truck
+top[3] prob = 0.000003  name = bird 
+top[4] prob = 0.000002  name = automobile 
+
+Image : truck_385.png
+top[0] prob = 0.999695  name = truck
+top[1] prob = 0.000261  name = ship 
+top[2] prob = 0.000013  name = cat 
+top[3] prob = 0.000013  name = bird 
+top[4] prob = 0.000010  name = automobile 
+
+Image : airplane_348.png
+top[0] prob = 0.999037  name = airplane 
+top[1] prob = 0.000911  name = bird 
+top[2] prob = 0.000021  name = truck
+top[3] prob = 0.000017  name = ship 
+top[4] prob = 0.000008  name = frog 
+
+Image : automobile_140.png
+top[0] prob = 0.999814  name = automobile 
+top[1] prob = 0.000123  name = truck
+top[2] prob = 0.000028  name = airplane 
+top[3] prob = 0.000017  name = ship 
+top[4] prob = 0.000010  name = dog 
+
+Image : dog_70.png
+top[0] prob = 0.999894  name = dog 
+top[1] prob = 0.000096  name = cat 
+top[2] prob = 0.000004  name = horse 
+top[3] prob = 0.000002  name = bird 
+top[4] prob = 0.000001  name = ship 
+
+Image : truck_265.png
+top[0] prob = 0.999467  name = truck
+top[1] prob = 0.000261  name = horse 
+top[2] prob = 0.000158  name = automobile 
+top[3] prob = 0.000075  name = ship 
+top[4] prob = 0.000013  name = cat 
+
+Image : bird_47.png
+top[0] prob = 0.999169  name = bird 
+top[1] prob = 0.000553  name = ship 
+top[2] prob = 0.000261  name = deer 
+top[3] prob = 0.000006  name = airplane 
+top[4] prob = 0.000005  name = horse 
+
+Image : truck_322.png
+top[0] prob = 0.998049  name = truck
+top[1] prob = 0.001927  name = automobile 
+top[2] prob = 0.000013  name = frog 
+top[3] prob = 0.000004  name = airplane 
+top[4] prob = 0.000002  name = horse 
+
+Image : dog_359.png
+top[0] prob = 0.942224  name = dog 
+top[1] prob = 0.036534  name = cat 
+top[2] prob = 0.013440  name = horse 
+top[3] prob = 0.002999  name = deer 
+top[4] prob = 0.002336  name = automobile 
+
+Image : horse_237.png
+top[0] prob = 0.999995  name = horse 
+top[1] prob = 0.000002  name = dog 
+top[2] prob = 0.000002  name = deer 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = ship 
+
+Image : horse_388.png
+top[0] prob = 0.999877  name = horse 
+top[1] prob = 0.000028  name = cat 
+top[2] prob = 0.000021  name = truck
+top[3] prob = 0.000021  name = ship 
+top[4] prob = 0.000021  name = frog 
+
+Image : truck_88.png
+top[0] prob = 0.999972  name = truck
+top[1] prob = 0.000028  name = automobile 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = airplane 
+
+Image : deer_66.png
+top[0] prob = 0.999965  name = deer 
+top[1] prob = 0.000021  name = ship 
+top[2] prob = 0.000008  name = horse 
+top[3] prob = 0.000004  name = dog 
+top[4] prob = 0.000001  name = truck
+
+Image : cat_229.png
+top[0] prob = 0.996780  name = cat 
+top[1] prob = 0.003173  name = dog 
+top[2] prob = 0.000017  name = ship 
+top[3] prob = 0.000008  name = bird 
+top[4] prob = 0.000008  name = automobile 
+
+Image : deer_372.png
+top[0] prob = 0.999999  name = deer 
+top[1] prob = 0.000001  name = horse 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : automobile_301.png
+top[0] prob = 0.999810  name = automobile 
+top[1] prob = 0.000158  name = cat 
+top[2] prob = 0.000017  name = truck
+top[3] prob = 0.000008  name = dog 
+top[4] prob = 0.000002  name = horse 
+
+Image : airplane_279.png
+top[0] prob = 0.999672  name = airplane 
+top[1] prob = 0.000203  name = horse 
+top[2] prob = 0.000058  name = dog 
+top[3] prob = 0.000017  name = bird 
+top[4] prob = 0.000010  name = ship 
+
+Image : truck_357.png
+top[0] prob = 0.996815  name = truck
+top[1] prob = 0.003173  name = automobile 
+top[2] prob = 0.000008  name = airplane 
+top[3] prob = 0.000003  name = cat 
+top[4] prob = 0.000001  name = horse 
+
+Image : automobile_64.png
+top[0] prob = 0.999986  name = automobile 
+top[1] prob = 0.000008  name = truck
+top[2] prob = 0.000002  name = ship 
+top[3] prob = 0.000002  name = dog 
+top[4] prob = 0.000001  name = cat 
+
+Image : deer_162.png
+top[0] prob = 0.999606  name = deer 
+top[1] prob = 0.000123  name = automobile 
+top[2] prob = 0.000096  name = horse 
+top[3] prob = 0.000045  name = truck
+top[4] prob = 0.000045  name = bird 
+
+Image : frog_210.png
+top[0] prob = 0.997203  name = frog 
+top[1] prob = 0.002472  name = ship 
+top[2] prob = 0.000096  name = airplane 
+top[3] prob = 0.000075  name = truck
+top[4] prob = 0.000045  name = cat 
+
+Image : frog_204.png
+top[0] prob = 0.999994  name = frog 
+top[1] prob = 0.000006  name = truck
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = bird 
+
+Image : horse_338.png
+top[0] prob = 0.999766  name = horse 
+top[1] prob = 0.000203  name = cat 
+top[2] prob = 0.000021  name = bird 
+top[3] prob = 0.000004  name = deer 
+top[4] prob = 0.000002  name = dog 
+
+Image : truck_50.png
+top[0] prob = 0.998124  name = truck
+top[1] prob = 0.000910  name = ship 
+top[2] prob = 0.000709  name = airplane 
+top[3] prob = 0.000123  name = automobile 
+top[4] prob = 0.000058  name = dog 
+
+Image : ship_240.png
+top[0] prob = 0.999639  name = ship 
+top[1] prob = 0.000335  name = airplane 
+top[2] prob = 0.000010  name = cat 
+top[3] prob = 0.000005  name = truck
+top[4] prob = 0.000005  name = automobile 
+
+Image : horse_152.png
+top[0] prob = 0.999998  name = horse 
+top[1] prob = 0.000001  name = dog 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = truck
+
+Image : deer_28.png
+top[0] prob = 0.998319  name = deer 
+top[1] prob = 0.001501  name = horse 
+top[2] prob = 0.000096  name = dog 
+top[3] prob = 0.000045  name = ship 
+top[4] prob = 0.000021  name = truck
+
+Image : cat_197.png
+top[0] prob = 0.999936  name = cat 
+top[1] prob = 0.000035  name = airplane 
+top[2] prob = 0.000021  name = dog 
+top[3] prob = 0.000004  name = deer 
+top[4] prob = 0.000001  name = bird 
+
+Image : automobile_137.png
+top[0] prob = 0.999953  name = automobile 
+top[1] prob = 0.000035  name = ship 
+top[2] prob = 0.000005  name = truck
+top[3] prob = 0.000004  name = dog 
+top[4] prob = 0.000001  name = airplane 
+
+Image : dog_305.png
+top[0] prob = 0.999680  name = dog 
+top[1] prob = 0.000261  name = deer 
+top[2] prob = 0.000028  name = ship 
+top[3] prob = 0.000017  name = horse 
+top[4] prob = 0.000006  name = bird 
+
+Image : frog_95.png
+top[0] prob = 0.999982  name = frog 
+top[1] prob = 0.000017  name = deer 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = truck
+
+Image : deer_345.png
+top[0] prob = 0.977984  name = deer 
+top[1] prob = 0.008461  name = cat 
+top[2] prob = 0.006590  name = frog 
+top[3] prob = 0.003997  name = dog 
+top[4] prob = 0.002424  name = horse 
+
+Image : airplane_223.png
+top[0] prob = 0.936533  name = airplane 
+top[1] prob = 0.059871  name = deer 
+top[2] prob = 0.001808  name = horse 
+top[3] prob = 0.001097  name = truck
+top[4] prob = 0.000403  name = ship 
+
+Image : automobile_168.png
+top[0] prob = 0.999991  name = automobile 
+top[1] prob = 0.000008  name = truck
+top[2] prob = 0.000001  name = ship 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = frog 
+
+Image : bird_55.png
+top[0] prob = 0.999993  name = bird 
+top[1] prob = 0.000004  name = dog 
+top[2] prob = 0.000002  name = deer 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000001  name = cat 
+
+Image : truck_1.png
+top[0] prob = 1.000000  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = horse 
+
+Image : horse_256.png
+top[0] prob = 0.999853  name = horse 
+top[1] prob = 0.000123  name = dog 
+top[2] prob = 0.000008  name = truck
+top[3] prob = 0.000008  name = automobile 
+top[4] prob = 0.000005  name = deer 
+
+Image : bird_120.png
+top[0] prob = 1.000000  name = bird 
+top[1] prob = 0.000000  name = cat 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = airplane 
+
+Image : ship_8.png
+top[0] prob = 0.999785  name = ship 
+top[1] prob = 0.000158  name = airplane 
+top[2] prob = 0.000045  name = truck
+top[3] prob = 0.000004  name = bird 
+top[4] prob = 0.000002  name = automobile 
+
+Image : horse_321.png
+top[0] prob = 1.000000  name = horse 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = frog 
+
+Image : cat_253.png
+top[0] prob = 0.998984  name = cat 
+top[1] prob = 0.000911  name = dog 
+top[2] prob = 0.000075  name = frog 
+top[3] prob = 0.000017  name = deer 
+top[4] prob = 0.000005  name = horse 
+
+Image : ship_290.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = deer 
+
+Image : dog_380.png
+top[0] prob = 0.999993  name = dog 
+top[1] prob = 0.000003  name = truck
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000001  name = horse 
+top[4] prob = 0.000001  name = cat 
+
+Image : airplane_233.png
+top[0] prob = 0.999540  name = airplane 
+top[1] prob = 0.000261  name = automobile 
+top[2] prob = 0.000158  name = bird 
+top[3] prob = 0.000028  name = ship 
+top[4] prob = 0.000005  name = deer 
+
+Image : bird_383.png
+top[0] prob = 0.999988  name = bird 
+top[1] prob = 0.000004  name = frog 
+top[2] prob = 0.000003  name = cat 
+top[3] prob = 0.000002  name = ship 
+top[4] prob = 0.000002  name = deer 
+
+Image : automobile_79.png
+top[0] prob = 0.999998  name = automobile 
+top[1] prob = 0.000001  name = airplane 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = cat 
+
+Image : cat_251.png
+top[0] prob = 0.995350  name = cat 
+top[1] prob = 0.002467  name = dog 
+top[2] prob = 0.000707  name = frog 
+top[3] prob = 0.000707  name = deer 
+top[4] prob = 0.000551  name = bird 
+
+Image : airplane_179.png
+top[0] prob = 0.997575  name = airplane 
+top[1] prob = 0.001168  name = deer 
+top[2] prob = 0.000910  name = cat 
+top[3] prob = 0.000123  name = truck
+top[4] prob = 0.000058  name = bird 
+
+Image : bird_13.png
+top[0] prob = 0.997334  name = bird 
+top[1] prob = 0.001168  name = truck
+top[2] prob = 0.000430  name = ship 
+top[3] prob = 0.000335  name = frog 
+top[4] prob = 0.000335  name = automobile 
+
+Image : ship_155.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = cat 
+
+Image : automobile_312.png
+top[0] prob = 0.999998  name = automobile 
+top[1] prob = 0.000001  name = truck
+top[2] prob = 0.000001  name = horse 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = dog 
+
+Image : airplane_115.png
+top[0] prob = 0.999998  name = airplane 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = automobile 
+
+Image : horse_294.png
+top[0] prob = 0.999994  name = horse 
+top[1] prob = 0.000005  name = dog 
+top[2] prob = 0.000000  name = deer 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : ship_69.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = airplane 
+
+Image : bird_271.png
+top[0] prob = 0.999955  name = bird 
+top[1] prob = 0.000035  name = deer 
+top[2] prob = 0.000006  name = airplane 
+top[3] prob = 0.000002  name = dog 
+top[4] prob = 0.000001  name = ship 
+
+Image : deer_153.png
+top[0] prob = 0.999999  name = deer 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = dog 
+
+Image : bird_6.png
+top[0] prob = 0.999904  name = bird 
+top[1] prob = 0.000035  name = airplane 
+top[2] prob = 0.000021  name = deer 
+top[3] prob = 0.000013  name = cat 
+top[4] prob = 0.000008  name = truck
+
+Image : horse_289.png
+top[0] prob = 0.999708  name = horse 
+top[1] prob = 0.000158  name = deer 
+top[2] prob = 0.000075  name = dog 
+top[3] prob = 0.000028  name = cat 
+top[4] prob = 0.000008  name = truck
+
+Image : dog_297.png
+top[0] prob = 0.999935  name = dog 
+top[1] prob = 0.000045  name = bird 
+top[2] prob = 0.000010  name = deer 
+top[3] prob = 0.000004  name = truck
+top[4] prob = 0.000003  name = frog 
+
+Image : automobile_262.png
+top[0] prob = 0.999986  name = automobile 
+top[1] prob = 0.000008  name = airplane 
+top[2] prob = 0.000004  name = ship 
+top[3] prob = 0.000001  name = truck
+top[4] prob = 0.000000  name = dog 
+
+Image : frog_117.png
+top[0] prob = 0.999988  name = frog 
+top[1] prob = 0.000005  name = cat 
+top[2] prob = 0.000002  name = bird 
+top[3] prob = 0.000001  name = deer 
+top[4] prob = 0.000001  name = dog 
+
+Image : truck_214.png
+top[0] prob = 0.999913  name = truck
+top[1] prob = 0.000028  name = frog 
+top[2] prob = 0.000017  name = airplane 
+top[3] prob = 0.000013  name = horse 
+top[4] prob = 0.000013  name = automobile 
+
+Image : automobile_75.png
+top[0] prob = 0.999989  name = automobile 
+top[1] prob = 0.000005  name = ship 
+top[2] prob = 0.000003  name = truck
+top[3] prob = 0.000001  name = dog 
+top[4] prob = 0.000001  name = cat 
+
+Image : airplane_264.png
+top[0] prob = 0.999943  name = airplane 
+top[1] prob = 0.000035  name = bird 
+top[2] prob = 0.000008  name = truck
+top[3] prob = 0.000006  name = ship 
+top[4] prob = 0.000004  name = cat 
+
+Image : horse_68.png
+top[0] prob = 0.999920  name = horse 
+top[1] prob = 0.000058  name = dog 
+top[2] prob = 0.000005  name = cat 
+top[3] prob = 0.000005  name = bird 
+top[4] prob = 0.000005  name = airplane 
+
+Image : horse_172.png
+top[0] prob = 0.999991  name = horse 
+top[1] prob = 0.000004  name = dog 
+top[2] prob = 0.000002  name = bird 
+top[3] prob = 0.000001  name = cat 
+top[4] prob = 0.000001  name = automobile 
+
+Image : automobile_32.png
+top[0] prob = 0.999994  name = automobile 
+top[1] prob = 0.000006  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = frog 
+
+Image : bird_218.png
+top[0] prob = 0.999995  name = bird 
+top[1] prob = 0.000003  name = dog 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000000  name = cat 
+
+Image : deer_263.png
+top[0] prob = 0.999952  name = deer 
+top[1] prob = 0.000021  name = horse 
+top[2] prob = 0.000021  name = bird 
+top[3] prob = 0.000002  name = cat 
+top[4] prob = 0.000001  name = truck
+
+Image : automobile_226.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = cat 
+
+Image : ship_353.png
+top[0] prob = 0.999998  name = ship 
+top[1] prob = 0.000001  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = automobile 
+
+Image : airplane_293.png
+top[0] prob = 0.996395  name = airplane 
+top[1] prob = 0.002470  name = horse 
+top[2] prob = 0.000708  name = truck
+top[3] prob = 0.000334  name = bird 
+top[4] prob = 0.000058  name = frog 
+
+Image : truck_369.png
+top[0] prob = 0.999892  name = truck
+top[1] prob = 0.000075  name = automobile 
+top[2] prob = 0.000013  name = deer 
+top[3] prob = 0.000008  name = cat 
+top[4] prob = 0.000004  name = horse 
+
+Image : frog_235.png
+top[0] prob = 0.998913  name = frog 
+top[1] prob = 0.000911  name = bird 
+top[2] prob = 0.000096  name = dog 
+top[3] prob = 0.000035  name = cat 
+top[4] prob = 0.000021  name = deer 
+
+Image : dog_51.png
+top[0] prob = 0.999933  name = dog 
+top[1] prob = 0.000058  name = cat 
+top[2] prob = 0.000008  name = horse 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = frog 
+
+Image : automobile_238.png
+top[0] prob = 0.999998  name = automobile 
+top[1] prob = 0.000001  name = frog 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = cat 
+
+Image : automobile_65.png
+top[0] prob = 0.999519  name = automobile 
+top[1] prob = 0.000335  name = ship 
+top[2] prob = 0.000123  name = truck
+top[3] prob = 0.000006  name = frog 
+top[4] prob = 0.000006  name = dog 
+
+Image : cat_101.png
+top[0] prob = 0.999989  name = cat 
+top[1] prob = 0.000010  name = bird 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = deer 
+
+Image : ship_100.png
+top[0] prob = 0.998506  name = ship 
+top[1] prob = 0.000709  name = airplane 
+top[2] prob = 0.000261  name = truck
+top[3] prob = 0.000261  name = bird 
+top[4] prob = 0.000096  name = cat 
+
+Image : frog_143.png
+top[0] prob = 0.999995  name = frog 
+top[1] prob = 0.000002  name = bird 
+top[2] prob = 0.000002  name = cat 
+top[3] prob = 0.000001  name = deer 
+top[4] prob = 0.000000  name = automobile 
+
+Image : deer_296.png
+top[0] prob = 0.998732  name = deer 
+top[1] prob = 0.001169  name = horse 
+top[2] prob = 0.000035  name = ship 
+top[3] prob = 0.000035  name = airplane 
+top[4] prob = 0.000013  name = automobile 
+
+Image : deer_82.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = cat 
+
+Image : truck_53.png
+top[0] prob = 0.999715  name = truck
+top[1] prob = 0.000158  name = automobile 
+top[2] prob = 0.000123  name = airplane 
+top[3] prob = 0.000001  name = dog 
+top[4] prob = 0.000001  name = horse 
+
+Image : truck_205.png
+top[0] prob = 0.999865  name = truck
+top[1] prob = 0.000075  name = cat 
+top[2] prob = 0.000045  name = automobile 
+top[3] prob = 0.000006  name = horse 
+top[4] prob = 0.000004  name = dog 
+
+Image : dog_324.png
+top[0] prob = 1.000000  name = dog 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = automobile 
+
+Image : horse_73.png
+top[0] prob = 0.992592  name = horse 
+top[1] prob = 0.001916  name = ship 
+top[2] prob = 0.001916  name = deer 
+top[3] prob = 0.001916  name = cat 
+top[4] prob = 0.001162  name = bird 
+
+Image : automobile_389.png
+top[0] prob = 0.999999  name = automobile 
+top[1] prob = 0.000000  name = frog 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = ship 
+
+Image : dog_173.png
+top[0] prob = 0.999035  name = dog 
+top[1] prob = 0.000261  name = horse 
+top[2] prob = 0.000261  name = frog 
+top[3] prob = 0.000158  name = truck
+top[4] prob = 0.000096  name = deer 
+
+Image : dog_198.png
+top[0] prob = 0.999727  name = dog 
+top[1] prob = 0.000158  name = cat 
+top[2] prob = 0.000058  name = horse 
+top[3] prob = 0.000021  name = automobile 
+top[4] prob = 0.000010  name = deer 
+
+Image : deer_180.png
+top[0] prob = 0.999996  name = deer 
+top[1] prob = 0.000002  name = cat 
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = dog 
+
+Image : automobile_160.png
+top[0] prob = 0.999997  name = automobile 
+top[1] prob = 0.000001  name = cat 
+top[2] prob = 0.000001  name = truck
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = ship 
+
+Image : horse_267.png
+top[0] prob = 0.997800  name = horse 
+top[1] prob = 0.001168  name = deer 
+top[2] prob = 0.000430  name = bird 
+top[3] prob = 0.000158  name = truck
+top[4] prob = 0.000158  name = ship 
+
+Image : truck_360.png
+top[0] prob = 0.977476  name = truck
+top[1] prob = 0.017903  name = automobile 
+top[2] prob = 0.003995  name = ship 
+top[3] prob = 0.000421  name = airplane 
+top[4] prob = 0.000057  name = dog 
+
+Image : bird_283.png
+top[0] prob = 0.999424  name = bird 
+top[1] prob = 0.000335  name = automobile 
+top[2] prob = 0.000203  name = frog 
+top[3] prob = 0.000017  name = ship 
+top[4] prob = 0.000008  name = cat 
+
+Image : deer_34.png
+top[0] prob = 0.999998  name = deer 
+top[1] prob = 0.000002  name = bird 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = airplane 
+
+Image : bird_358.png
+top[0] prob = 0.992896  name = bird 
+top[1] prob = 0.006690  name = cat 
+top[2] prob = 0.000123  name = airplane 
+top[3] prob = 0.000095  name = automobile 
+top[4] prob = 0.000058  name = frog 
+
+Image : bird_41.png
+top[0] prob = 0.999999  name = bird 
+top[1] prob = 0.000001  name = airplane 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = cat 
+
+Image : frog_224.png
+top[0] prob = 0.999670  name = frog 
+top[1] prob = 0.000203  name = bird 
+top[2] prob = 0.000096  name = cat 
+top[3] prob = 0.000021  name = deer 
+top[4] prob = 0.000004  name = dog 
+
+Image : cat_266.png
+top[0] prob = 0.999115  name = cat 
+top[1] prob = 0.000203  name = truck
+top[2] prob = 0.000203  name = dog 
+top[3] prob = 0.000158  name = ship 
+top[4] prob = 0.000123  name = frog 
+
+Image : deer_58.png
+top[0] prob = 0.998452  name = deer 
+top[1] prob = 0.001501  name = bird 
+top[2] prob = 0.000021  name = dog 
+top[3] prob = 0.000013  name = horse 
+top[4] prob = 0.000005  name = frog 
+
+Image : airplane_373.png
+top[0] prob = 0.999999  name = airplane 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = cat 
+top[4] prob = 0.000000  name = deer 
+
+Image : airplane_116.png
+top[0] prob = 0.999862  name = airplane 
+top[1] prob = 0.000058  name = bird 
+top[2] prob = 0.000045  name = ship 
+top[3] prob = 0.000021  name = truck
+top[4] prob = 0.000006  name = deer 
+
+Image : dog_277.png
+top[0] prob = 0.999443  name = dog 
+top[1] prob = 0.000335  name = cat 
+top[2] prob = 0.000096  name = bird 
+top[3] prob = 0.000075  name = horse 
+top[4] prob = 0.000028  name = truck
+
+Image : airplane_30.png
+top[0] prob = 0.999901  name = airplane 
+top[1] prob = 0.000058  name = ship 
+top[2] prob = 0.000017  name = bird 
+top[3] prob = 0.000013  name = truck
+top[4] prob = 0.000008  name = frog 
+
+Image : airplane_35.png
+top[0] prob = 0.999872  name = airplane 
+top[1] prob = 0.000096  name = deer 
+top[2] prob = 0.000028  name = bird 
+top[3] prob = 0.000002  name = truck
+top[4] prob = 0.000001  name = automobile 
+
+Image : cat_367.png
+top[0] prob = 0.999806  name = cat 
+top[1] prob = 0.000075  name = horse 
+top[2] prob = 0.000058  name = dog 
+top[3] prob = 0.000028  name = truck
+top[4] prob = 0.000021  name = deer 
+
+Image : truck_146.png
+top[0] prob = 0.975186  name = truck
+top[1] prob = 0.017861  name = frog 
+top[2] prob = 0.003985  name = automobile 
+top[3] prob = 0.001142  name = cat 
+top[4] prob = 0.000889  name = dog 
+
+Image : frog_104.png
+top[0] prob = 0.999898  name = frog 
+top[1] prob = 0.000045  name = automobile 
+top[2] prob = 0.000035  name = airplane 
+top[3] prob = 0.000010  name = deer 
+top[4] prob = 0.000005  name = bird 
+
+Image : automobile_4.png
+top[0] prob = 0.999998  name = automobile 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : truck_307.png
+top[0] prob = 0.999994  name = truck
+top[1] prob = 0.000006  name = automobile 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = ship 
+
+Image : deer_272.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = bird 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = cat 
+
+Image : dog_107.png
+top[0] prob = 0.997973  name = dog 
+top[1] prob = 0.001927  name = cat 
+top[2] prob = 0.000058  name = horse 
+top[3] prob = 0.000035  name = bird 
+top[4] prob = 0.000002  name = frog 
+
+Image : frog_243.png
+top[0] prob = 0.999477  name = frog 
+top[1] prob = 0.000335  name = cat 
+top[2] prob = 0.000158  name = deer 
+top[3] prob = 0.000021  name = bird 
+top[4] prob = 0.000003  name = ship 
+
+Image : ship_192.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = horse 
+
+Image : automobile_184.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = dog 
+
+Image : deer_390.png
+top[0] prob = 0.999999  name = deer 
+top[1] prob = 0.000000  name = ship 
+top[2] prob = 0.000000  name = cat 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = horse 
+
+Image : deer_130.png
+top[0] prob = 0.995925  name = deer 
+top[1] prob = 0.004070  name = bird 
+top[2] prob = 0.000002  name = frog 
+top[3] prob = 0.000002  name = cat 
+top[4] prob = 0.000001  name = dog 
+
+Image : airplane_349.png
+top[0] prob = 0.998966  name = airplane 
+top[1] prob = 0.000911  name = bird 
+top[2] prob = 0.000096  name = deer 
+top[3] prob = 0.000013  name = dog 
+top[4] prob = 0.000006  name = frog 
+
+Image : airplane_392.png
+top[0] prob = 0.998034  name = airplane 
+top[1] prob = 0.000709  name = dog 
+top[2] prob = 0.000552  name = cat 
+top[3] prob = 0.000335  name = truck
+top[4] prob = 0.000123  name = deer 
+
+Image : horse_211.png
+top[0] prob = 0.991235  name = horse 
+top[1] prob = 0.006679  name = cat 
+top[2] prob = 0.000904  name = truck
+top[3] prob = 0.000333  name = dog 
+top[4] prob = 0.000259  name = ship 
+
+Image : frog_361.png
+top[0] prob = 0.984922  name = frog 
+top[1] prob = 0.014049  name = cat 
+top[2] prob = 0.000898  name = dog 
+top[3] prob = 0.000074  name = bird 
+top[4] prob = 0.000027  name = automobile 
+
+Image : airplane_165.png
+top[0] prob = 0.999997  name = airplane 
+top[1] prob = 0.000001  name = bird 
+top[2] prob = 0.000001  name = automobile 
+top[3] prob = 0.000001  name = truck
+top[4] prob = 0.000000  name = ship 
+
+Image : automobile_212.png
+top[0] prob = 0.999989  name = automobile 
+top[1] prob = 0.000008  name = truck
+top[2] prob = 0.000001  name = cat 
+top[3] prob = 0.000001  name = ship 
+top[4] prob = 0.000001  name = frog 
+
+Image : airplane_185.png
+top[0] prob = 0.981812  name = airplane 
+top[1] prob = 0.014005  name = ship 
+top[2] prob = 0.003125  name = truck
+top[3] prob = 0.000543  name = bird 
+top[4] prob = 0.000156  name = horse 
+
+Image : deer_145.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = dog 
+top[2] prob = 0.000000  name = bird 
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = frog 
+
+Image : frog_228.png
+top[0] prob = 0.999923  name = frog 
+top[1] prob = 0.000075  name = bird 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000001  name = cat 
+top[4] prob = 0.000000  name = automobile 
+
+Image : frog_286.png
+top[0] prob = 0.994557  name = frog 
+top[1] prob = 0.005219  name = deer 
+top[2] prob = 0.000096  name = bird 
+top[3] prob = 0.000058  name = cat 
+top[4] prob = 0.000045  name = dog 
+
+Image : cat_36.png
+top[0] prob = 1.000000  name = cat 
+top[1] prob = 0.000000  name = ship 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = deer 
+top[4] prob = 0.000000  name = frog 
+
+Image : automobile_275.png
+top[0] prob = 1.000000  name = automobile 
+top[1] prob = 0.000000  name = truck
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = dog 
+top[4] prob = 0.000000  name = cat 
+
+Image : frog_350.png
+top[0] prob = 0.995782  name = frog 
+top[1] prob = 0.004070  name = cat 
+top[2] prob = 0.000123  name = deer 
+top[3] prob = 0.000017  name = bird 
+top[4] prob = 0.000004  name = dog 
+
+Image : frog_355.png
+top[0] prob = 0.999573  name = frog 
+top[1] prob = 0.000261  name = dog 
+top[2] prob = 0.000075  name = automobile 
+top[3] prob = 0.000028  name = ship 
+top[4] prob = 0.000017  name = bird 
+
+Image : horse_43.png
+top[0] prob = 0.999974  name = horse 
+top[1] prob = 0.000013  name = truck
+top[2] prob = 0.000008  name = dog 
+top[3] prob = 0.000002  name = cat 
+top[4] prob = 0.000001  name = automobile 
+
+Image : deer_254.png
+top[0] prob = 0.999997  name = deer 
+top[1] prob = 0.000001  name = horse 
+top[2] prob = 0.000001  name = frog 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = bird 
+
+Image : bird_335.png
+top[0] prob = 0.999976  name = bird 
+top[1] prob = 0.000010  name = deer 
+top[2] prob = 0.000005  name = dog 
+top[3] prob = 0.000003  name = frog 
+top[4] prob = 0.000002  name = airplane 
+
+Image : automobile_396.png
+top[0] prob = 0.999803  name = automobile 
+top[1] prob = 0.000096  name = ship 
+top[2] prob = 0.000045  name = bird 
+top[3] prob = 0.000028  name = frog 
+top[4] prob = 0.000017  name = cat 
+
+Image : ship_221.png
+top[0] prob = 0.999996  name = ship 
+top[1] prob = 0.000002  name = deer 
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000001  name = truck
+top[4] prob = 0.000000  name = horse 
+
+Image : deer_336.png
+top[0] prob = 0.999990  name = deer 
+top[1] prob = 0.000006  name = cat 
+top[2] prob = 0.000002  name = horse 
+top[3] prob = 0.000001  name = truck
+top[4] prob = 0.000000  name = ship 
+
+Image : deer_149.png
+top[0] prob = 1.000000  name = deer 
+top[1] prob = 0.000000  name = horse 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = frog 
+top[4] prob = 0.000000  name = bird 
+
+Image : ship_244.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = automobile 
+
+Image : bird_54.png
+top[0] prob = 0.999952  name = bird 
+top[1] prob = 0.000017  name = dog 
+top[2] prob = 0.000013  name = airplane 
+top[3] prob = 0.000005  name = frog 
+top[4] prob = 0.000005  name = deer 
+
+Image : truck_127.png
+top[0] prob = 0.999089  name = truck
+top[1] prob = 0.000430  name = airplane 
+top[2] prob = 0.000261  name = ship 
+top[3] prob = 0.000123  name = automobile 
+top[4] prob = 0.000058  name = cat 
+
+Image : automobile_45.png
+top[0] prob = 0.999878  name = automobile 
+top[1] prob = 0.000096  name = truck
+top[2] prob = 0.000006  name = frog 
+top[3] prob = 0.000006  name = dog 
+top[4] prob = 0.000004  name = cat 
+
+Image : cat_9.png
+top[0] prob = 0.999915  name = cat 
+top[1] prob = 0.000045  name = dog 
+top[2] prob = 0.000013  name = automobile 
+top[3] prob = 0.000013  name = airplane 
+top[4] prob = 0.000006  name = deer 
+
+Image : cat_384.png
+top[0] prob = 0.999683  name = cat 
+top[1] prob = 0.000203  name = dog 
+top[2] prob = 0.000058  name = bird 
+top[3] prob = 0.000035  name = frog 
+top[4] prob = 0.000010  name = deer 
+
+Image : cat_334.png
+top[0] prob = 0.999613  name = cat 
+top[1] prob = 0.000261  name = dog 
+top[2] prob = 0.000035  name = truck
+top[3] prob = 0.000028  name = automobile 
+top[4] prob = 0.000017  name = bird 
+
+Image : dog_339.png
+top[0] prob = 0.999966  name = dog 
+top[1] prob = 0.000028  name = cat 
+top[2] prob = 0.000003  name = bird 
+top[3] prob = 0.000002  name = horse 
+top[4] prob = 0.000000  name = deer 
+
+Image : dog_156.png
+top[0] prob = 0.992698  name = dog 
+top[1] prob = 0.006689  name = cat 
+top[2] prob = 0.000333  name = bird 
+top[3] prob = 0.000202  name = horse 
+top[4] prob = 0.000058  name = deer 
+
+Image : airplane_276.png
+top[0] prob = 0.999995  name = airplane 
+top[1] prob = 0.000002  name = ship 
+top[2] prob = 0.000001  name = bird 
+top[3] prob = 0.000001  name = truck
+top[4] prob = 0.000000  name = cat 
+
+Image : airplane_284.png
+top[0] prob = 0.999443  name = airplane 
+top[1] prob = 0.000261  name = ship 
+top[2] prob = 0.000261  name = deer 
+top[3] prob = 0.000017  name = truck
+top[4] prob = 0.000006  name = bird 
+
+Image : ship_328.png
+top[0] prob = 1.000000  name = ship 
+top[1] prob = 0.000000  name = airplane 
+top[2] prob = 0.000000  name = truck
+top[3] prob = 0.000000  name = horse 
+top[4] prob = 0.000000  name = automobile 
+
+Image : automobile_126.png
+top[0] prob = 0.999997  name = automobile 
+top[1] prob = 0.000002  name = ship 
+top[2] prob = 0.000000  name = frog 
+top[3] prob = 0.000000  name = airplane 
+top[4] prob = 0.000000  name = truck
+
+Image : frog_25.png
+top[0] prob = 0.999367  name = frog 
+top[1] prob = 0.000203  name = dog 
+top[2] prob = 0.000203  name = bird 
+top[3] prob = 0.000058  name = ship 
+top[4] prob = 0.000058  name = deer 
+
+Image : dog_27.png
+top[0] prob = 0.994646  name = dog 
+top[1] prob = 0.005219  name = horse 
+top[2] prob = 0.000045  name = frog 
+top[3] prob = 0.000027  name = deer 
+top[4] prob = 0.000017  name = cat 
+
+Image : bird_57.png
+top[0] prob = 0.999759  name = bird 
+top[1] prob = 0.000203  name = airplane 
+top[2] prob = 0.000021  name = deer 
+top[3] prob = 0.000006  name = frog 
+top[4] prob = 0.000004  name = ship 
+
+Image : ship_111.png
+top[0] prob = 0.993832  name = ship 
+top[1] prob = 0.002463  name = truck
+top[2] prob = 0.002463  name = airplane 
+top[3] prob = 0.000428  name = automobile 
+top[4] prob = 0.000260  name = dog 
+
+Image : airplane_308.png
+top[0] prob = 0.999980  name = airplane 
+top[1] prob = 0.000017  name = bird 
+top[2] prob = 0.000001  name = truck
+top[3] prob = 0.000001  name = frog 
+top[4] prob = 0.000000  name = ship 
+
+Image : ship_161.png
+top[0] prob = 0.999997  name = ship 
+top[1] prob = 0.000003  name = truck
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = horse 
+
+Image : truck_225.png
+top[0] prob = 1.000000  name = truck
+top[1] prob = 0.000000  name = automobile 
+top[2] prob = 0.000000  name = airplane 
+top[3] prob = 0.000000  name = ship 
+top[4] prob = 0.000000  name = horse 
+
+Image : horse_163.png
+top[0] prob = 0.999994  name = horse 
+top[1] prob = 0.000004  name = dog 
+top[2] prob = 0.000001  name = deer 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = truck
+
+Image : cat_203.png
+top[0] prob = 0.999993  name = cat 
+top[1] prob = 0.000006  name = dog 
+top[2] prob = 0.000000  name = ship 
+top[3] prob = 0.000000  name = automobile 
+top[4] prob = 0.000000  name = airplane 
+
+Image : dog_167.png
+top[0] prob = 0.999982  name = dog 
+top[1] prob = 0.000013  name = cat 
+top[2] prob = 0.000003  name = deer 
+top[3] prob = 0.000001  name = horse 
+top[4] prob = 0.000001  name = airplane 
+
+Image : cat_174.png
+top[0] prob = 0.999998  name = cat 
+top[1] prob = 0.000001  name = dog 
+top[2] prob = 0.000000  name = horse 
+top[3] prob = 0.000000  name = bird 
+top[4] prob = 0.000000  name = frog 
+
+Image : horse_12.png
+top[0] prob = 0.974170  name = horse 
+top[1] prob = 0.017843  name = dog 
+top[2] prob = 0.003981  name = deer 
+top[3] prob = 0.001881  name = truck
+top[4] prob = 0.001465  name = airplane 
+
+Image : horse_131.png
+top[0] prob = 0.998248  name = horse 
+top[1] prob = 0.001169  name = bird 
+top[2] prob = 0.000430  name = deer 
+top[3] prob = 0.000075  name = dog 
+top[4] prob = 0.000027  name = truck
+
+Image : frog_231.png
+top[0] prob = 0.985559  name = frog 
+top[1] prob = 0.014058  name = ship 
+top[2] prob = 0.000257  name = automobile 
+top[3] prob = 0.000057  name = cat 
+top[4] prob = 0.000021  name = bird 
+
+Image : cat_395.png
+top[0] prob = 0.999249  name = cat 
+top[1] prob = 0.000261  name = airplane 
+top[2] prob = 0.000203  name = bird 
+top[3] prob = 0.000158  name = dog 
+top[4] prob = 0.000058  name = truck
+
+Image : frog_292.png
+top[0] prob = 0.999029  name = frog 
+top[1] prob = 0.000335  name = dog 
+top[2] prob = 0.000158  name = cat 
+top[3] prob = 0.000123  name = truck
+top[4] prob = 0.000123  name = automobile 
+
+Image : cat_287.png
+top[0] prob = 0.999686  name = cat 
+top[1] prob = 0.000203  name = dog 
+top[2] prob = 0.000075  name = frog 
+top[3] prob = 0.000013  name = truck
+top[4] prob = 0.000010  name = deer 
+
+Image : truck_16.png
+top[0] prob = 0.996904  name = truck
+top[1] prob = 0.001499  name = horse 
+top[2] prob = 0.000708  name = ship 
+top[3] prob = 0.000260  name = cat 
+top[4] prob = 0.000260  name = automobile 
+
+Image : automobile_311.png
+top[0] prob = 0.999999  name = automobile 
+top[1] prob = 0.000001  name = ship 
+top[2] prob = 0.000000  name = dog 
+top[3] prob = 0.000000  name = truck
+top[4] prob = 0.000000  name = frog 
+
+Image : truck_319.png
+top[0] prob = 0.999588  name = truck
+top[1] prob = 0.000335  name = automobile 
+top[2] prob = 0.000058  name = cat 
+top[3] prob = 0.000013  name = dog 
+top[4] prob = 0.000003  name = horse 
+
+Image : bird_300.png
+top[0] prob = 0.993128  name = bird 
+top[1] prob = 0.005211  name = airplane 
+top[2] prob = 0.000549  name = horse 
+top[3] prob = 0.000549  name = deer 
+top[4] prob = 0.000259  name = frog 
+
+Image : truck_118.png
+top[0] prob = 0.999940  name = truck
+top[1] prob = 0.000028  name = ship 
+top[2] prob = 0.000017  name = automobile 
+top[3] prob = 0.000008  name = airplane 
+top[4] prob = 0.000003  name = horse 
+
+Image : cat_26.png
+top[0] prob = 0.999990  name = cat 
+top[1] prob = 0.000005  name = dog 
+top[2] prob = 0.000003  name = horse 
+top[3] prob = 0.000001  name = deer 
+top[4] prob = 0.000000  name = frog 

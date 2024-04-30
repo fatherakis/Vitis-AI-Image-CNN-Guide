@@ -1,0 +1,186 @@
+./get_dpu_fps ./resnet20CIFAR.xmodel 1 10000 
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+outSize   10
+inSize    3072
+outW      1
+outH      1
+inpW      32
+inpH      32
+inp scale 32
+out scale 0.25
+# classes 10
+batchSize 6
+[average calibration high resolution clock] 0.0595us
+
+
+
+ number of dummy images per thread: 9996
+
+ allocated 30707712 bytes for  input buffer 
+
+ allocated 99960 bytes for output buffer 
+
+
+[DPU tot Time ] 433446us
+[DPU avg Time ] 4.3362e+07us
+[DPU avg FPS  ] 23061.7
+
+
+deleting memory buffer
+./get_dpu_fps ./resnet20CIFAR.xmodel 2 10000 
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+outSize   10
+inSize    3072
+outW      1
+outH      1
+inpW      32
+inpH      32
+inp scale 32
+out scale 0.25
+# classes 10
+batchSize 6
+[average calibration high resolution clock] 0.0609us
+
+
+
+ number of dummy images per thread: 4998
+
+ allocated 30707712 bytes for  input buffer 
+
+ allocated 99960 bytes for output buffer 
+
+
+[DPU tot Time ] 253034us
+[DPU avg Time ] 2.53136e+07us
+[DPU avg FPS  ] 39504.5
+
+
+deleting memory buffer
+./get_dpu_fps ./resnet20CIFAR.xmodel 3 10000 
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+outSize   10
+inSize    3072
+outW      1
+outH      1
+inpW      32
+inpH      32
+inp scale 32
+out scale 0.25
+# classes 10
+batchSize 6
+[average calibration high resolution clock] 0.0593us
+
+
+
+ number of dummy images per thread: 3330
+
+ allocated 30689280 bytes for  input buffer 
+
+ allocated 99900 bytes for output buffer 
+
+
+[DPU tot Time ] 196956us
+[DPU avg Time ] 1.97153e+07us
+[DPU avg FPS  ] 50722
+
+
+deleting memory buffer
+./get_dpu_fps ./resnet20CIFAR.xmodel 4 10000 
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+outSize   10
+inSize    3072
+outW      1
+outH      1
+inpW      32
+inpH      32
+inp scale 32
+out scale 0.25
+# classes 10
+batchSize 6
+[average calibration high resolution clock] 0.0729us
+
+
+
+ number of dummy images per thread: 2496
+
+ allocated 30670848 bytes for  input buffer 
+
+ allocated 99840 bytes for output buffer 
+
+
+[DPU tot Time ] 185255us
+[DPU avg Time ] 1.85552e+07us
+[DPU avg FPS  ] 53893.2
+
+
+deleting memory buffer
+./get_dpu_fps ./resnet20CIFAR.xmodel 5 10000 
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+outSize   10
+inSize    3072
+outW      1
+outH      1
+inpW      32
+inpH      32
+inp scale 32
+out scale 0.25
+# classes 10
+batchSize 6
+[average calibration high resolution clock] 0.07285us
+
+
+
+ number of dummy images per thread: 1998
+
+ allocated 30689280 bytes for  input buffer 
+
+ allocated 99900 bytes for output buffer 
+
+
+[DPU tot Time ] 175231us
+[DPU avg Time ] 1.75407e+07us
+[DPU avg FPS  ] 57010.4
+
+
+deleting memory buffer
+./get_dpu_fps ./resnet20CIFAR.xmodel 6 10000 
+XAIEFAL: INFO: Resource group Avail is created.
+XAIEFAL: INFO: Resource group Static is created.
+XAIEFAL: INFO: Resource group Generic is created.
+outSize   10
+inSize    3072
+outW      1
+outH      1
+inpW      32
+inpH      32
+inp scale 32
+out scale 0.25
+# classes 10
+batchSize 6
+[average calibration high resolution clock] 0.0608us
+
+
+
+ number of dummy images per thread: 1662
+
+ allocated 30633984 bytes for  input buffer 
+
+ allocated 99720 bytes for output buffer 
+
+
+[DPU tot Time ] 208391us
+[DPU avg Time ] 2.08976e+07us
+[DPU avg FPS  ] 47852.3
+
+
+deleting memory buffer
