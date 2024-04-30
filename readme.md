@@ -7,7 +7,7 @@ It contains the basic steps in order to convert a model to its final version for
 1. [Preparation: Model & Host](#{prep})
 2. [Vitis-AI 3.0](#vitis-ai)
 3. [Versal](#versal)
-
+4. [Credits](#credits)
 ## Preparation: Model & Host
 
 ### Model & Dataset
