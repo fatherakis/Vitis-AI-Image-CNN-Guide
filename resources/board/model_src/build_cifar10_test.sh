@@ -9,12 +9,11 @@
 
 # airplane automobile bird cat deer dog frog horse ship truck
 
-UNPACKPKG=$1
 
-tar -xvf $UNPACKPKG.tar &> /dev/null
+tar -xvf test.tar &> /dev/null
 #mv ./build/dataset/cifar10/test ./test
 #rm -r ./build
-cd ./$UNPACKPKG
+cd ./test
 
 cd automobile
 mv *.png ../

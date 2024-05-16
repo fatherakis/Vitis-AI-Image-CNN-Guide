@@ -18,7 +18,7 @@ clean_cif10(){
 echo " "
 echo "clean cifar10"
 echo " "
-cd cifar10
+cd model_src
 rm -rf test
 rm -f *~
 rm -f  run_cnn cnn* get_dpu_fps *.txt
@@ -34,7 +34,7 @@ compile_cif10(){
 echo " "
 echo "compile cifar10"
 echo " "
-cd cifar10/code
+cd model_src/code
 echo "PWD1 = " $PWD
 bash -x ./build_app.sh
 mv code ../cnn_cifar10 # change name of the application
@@ -49,7 +49,7 @@ test_images_cif10(){
 echo " "
 echo "build test images for cifar10"
 echo " "
-cd cifar10
+cd model_src
 bash ./build_cifar10_test.sh
 cd ..
 echo " "
@@ -61,7 +61,7 @@ run_cnn_cif10(){
 echo " "
 echo " run cifar10 CNN"
 echo " "
-cd cifar10
+cd model_src
 ./cnn_cifar10 ./${MODELFILE}.xmodel ./test/ ./cifar10_labels.dat | tee ./rpt/predictions_cifar10_${MODELFILE}.log
 # check DPU prediction accuracy
 bash -x ./cifar10_performance.sh ${TARGET} ${MODELFILE}

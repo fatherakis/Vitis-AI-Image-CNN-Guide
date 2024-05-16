@@ -106,6 +106,8 @@ Which will resolve all the requirements and dependencies.
 
 Do **<ins>NOT</ins>** run this before finishing with the model deployment as it will lead to unloading the PATH variable and requiring a docker restart.
 
+**<ins>NOTE:</ins>** When running the host_cross_compiler script, it will show the full path for the source command instead of "$install_path". Run that.
+
 After the installation is done you can simply run:\
 ``vai_c_xir -x quantize_result/CifarResNet_int.xmodel -a /opt/vitis_ai/compiler/arch/DPUCVDX8G/VCK190/arch.json -o ./ -n resnet20CIFAR``
 

@@ -11,12 +11,11 @@ TARGET=$1
 
 MODELFILE=$2
 
-UNPACKPKG=$3
 # check DPU prediction top1_accuracy
 echo " "
 echo " CIFAR10 ${MODELFILE} TOP5 ACCURACY"
 echo " "
-python3 ./code/src/check_runtime_top5_cifar10.py -n 400 -i ./rpt/predictions_cifar10_${MODELFILE}_${UNPACKPKG}.log | tee ./rpt/results_predictions_${MODELFILE}_${UNPACKPKG}.log
+python3 ./code/src/check_runtime_top5_cifar10.py -n 400 -i ./rpt/predictions_cifar10_${MODELFILE}.log | tee ./rpt/results_predictions_${MODELFILE}.log
 
 
 #echo " "
