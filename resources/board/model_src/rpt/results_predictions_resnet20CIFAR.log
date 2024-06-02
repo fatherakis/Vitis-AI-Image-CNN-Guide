@@ -1,8 +1,0 @@
-./rpt/predictions_cifar10_resnet20CIFAR.log  has  70008  lines
-number of total images predicted  9999
-number of top1 false predictions  867
-number of top1 right predictions  9132
-number of top5 false predictions  45
-number of top5 right predictions  9954
-top1 accuracy = 0.91329
-top5 accuracy = 0.99550

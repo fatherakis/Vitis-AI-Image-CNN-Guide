@@ -6,17 +6,13 @@
 # Author: Daniele Bagni, Xilinx Inc
 # date:  28 Apr. 2023
 
-
-TARGET=$2
-#vek280
-
-MODELFILE=$3
+MODELFILE=$2
 
 
 #clean
-clean_cif10(){
+clean_(){
 echo " "
-echo "clean cifar10"
+echo "clean"
 echo " "
 cd model_src
 rm -rf test
@@ -30,14 +26,14 @@ cd ..
 }
 
 # compile CNN application
-compile_cif10(){
+compile_(){
 echo " "
-echo "compile cifar10"
+echo "compile"
 echo " "
 cd model_src/code
 echo "PWD1 = " $PWD
 bash -x ./build_app.sh
-mv code ../cnn_cifar10 # change name of the application
+mv code ../cnn_inf # change name of the application
 bash -x ./build_get_dpu_fps.sh
 mv code ../get_dpu_fps
 cd ../..
@@ -45,9 +41,9 @@ echo "PWD2 = " $PWD
 }
 
 # build cifar10 test images
-test_images_cif10(){
+test_images_(){
 echo " "
-echo "build test images for cifar10"
+echo "build test images"
 echo " "
 cd model_src
 bash ./build_cifar10_test.sh
@@ -57,24 +53,24 @@ echo "PWD3 = " $PWD
 }
 
 # now run the cifar10 classification with 4 CNNs using VART C++ APIs
-run_cnn_cif10(){
+run_cnn_(){
 echo " "
-echo " run cifar10 CNN"
+echo " run CNN"
 echo " "
 cd model_src
-./cnn_cifar10 ./${MODELFILE}.xmodel ./test/ ./cifar10_labels.dat | tee ./rpt/predictions_cifar10_${MODELFILE}.log
+./cnn_inf ./${MODELFILE}.xmodel ./test/ ./cifar10_labels.dat | tee ./rpt/predictions_${MODELFILE}.log
 # check DPU prediction accuracy
-bash -x ./cifar10_performance.sh ${TARGET} ${MODELFILE}
+bash -x ./cifar10_performance.sh ${MODELFILE}
 echo "PWD4 = " $PWD
 cd ..
 }
 
 #remove images
-end_cif10(){
+end_(){
 echo " "
-echo "end of cifar10"
+echo "end "
 echo " "
-cd cifar10
+cd model_src
 rm -rf test
 cd ../
 echo "PWD5 = " $PWD
@@ -84,11 +80,11 @@ echo "PWD5 = " $PWD
 
 main()
 {
-    clean_cif10
-    compile_cif10
-    test_images_cif10
-    run_cnn_cif10
-    end_cif10
+    clean_
+    compile_
+    test_images_
+    run_cnn_
+    end_
 }
 
 

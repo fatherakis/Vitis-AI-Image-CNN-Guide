@@ -30,6 +30,11 @@ parser.add_argument(
     help='Trained model file path. Download pretrained model from the following url and put it in model_dir specified path: '
 )
 parser.add_argument(
+    '--model_name',
+    default="resnet20_cifar",
+    help='Name of the model to be loaded'
+)
+parser.add_argument(
     '--config_file',
     default=None,
     help='quantization configuration file')
@@ -410,7 +415,7 @@ def quantization(title='optimize',
 
 if __name__ == '__main__':
 
-  model_name = 'resnet20_cifar'
+  model_name = args.model_name
   file_path = os.path.join(args.model_dir, model_name + '.pkl')
 
   feature_test = ' float model evaluation'

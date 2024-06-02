@@ -1,8 +1,0 @@
-./rpt/predictions_cifar10_resnet20CIFAR_trn-eval-0-cif20.log  has  2808  lines
-number of total images predicted  399
-number of top1 false predictions  0
-number of top1 right predictions  399
-number of top5 false predictions  0
-number of top5 right predictions  399
-top1 accuracy = 1.00000
-top5 accuracy = 1.00000

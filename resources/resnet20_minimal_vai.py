@@ -30,14 +30,10 @@ parser.add_argument(
     help='Trained model file path. Download pretrained model from the following url and put it in model_dir specified path: '
 )
 parser.add_argument(
-    '--config_file',
-    default=None,
-    help='quantization configuration file')
-parser.add_argument(
-    '--subset_len',
-    default=None,
-    type=int,
-    help='subset_len to evaluate model, using the whole validation dataset if it is not set')
+    '--model_name',
+    default="resnet20_cifar",
+    help='Name of the model to be loaded'
+)
 parser.add_argument(
     '--batch_size',
     default=32,
@@ -47,10 +43,6 @@ parser.add_argument('--quant_mode',
     default='calib', 
     choices=['float', 'calib', 'test'], 
     help='quantization mode. 0: no quantization, evaluate float model, calib: quantize, test: evaluate quantized model')
-parser.add_argument('--fast_finetune', 
-    dest='fast_finetune',
-    action='store_true',
-    help='fast finetune model before calibration')
 parser.add_argument('--deploy', 
     dest='deploy',
     action='store_true',
@@ -59,7 +51,6 @@ parser.add_argument('--inspect',
     dest='inspect',
     action='store_true',
     help='inspect model')
-
 parser.add_argument('--target', 
     dest='target',
     nargs="?",
@@ -175,10 +166,6 @@ resnet20_model_cifar = CifarResNet(BasicBlock,[3]*3)
 
 def load_data(data_dir='dataset/imagenet',
               batch_size=128,
-              subset_len=None,
-              sample_method='random',
-              distributed=False,
-              model_name='resnet20',
               **kwargs):
 
   #prepare data
@@ -189,18 +176,9 @@ def load_data(data_dir='dataset/imagenet',
   dataset = torchvision.datasets.ImageFolder(
       valdir,
       transforms.Compose([
-          #transforms.Resize(resize),
-          #transforms.CenterCrop(size),
           transforms.ToTensor(),
           normalize,
       ]))
-  if subset_len:
-    assert subset_len <= len(dataset)
-    if sample_method == 'random':
-      dataset = torch.utils.data.Subset(
-          dataset, random.sample(range(0, len(dataset)), subset_len))
-    else:
-      dataset = torch.utils.data.Subset(dataset, list(range(subset_len)))
   data_loader = torch.utils.data.DataLoader(
       dataset, batch_size=batch_size, shuffle=False, **kwargs)
   return data_loader
@@ -208,14 +186,13 @@ def load_data(data_dir='dataset/imagenet',
 
 def evaluate(model, val_loader):
 
-  model.eval()
-  model = model.to(device)
-  for iteraction, (images, labels) in tqdm(
-      enumerate(val_loader), total=len(val_loader)):
-    images = images.to(device)
-    labels = labels.to(device)
-    #pdb.set_trace()
-    outputs = model(images)
+    model.eval()
+    model = model.to(device)
+    for iteration, (images, labels) in tqdm(enumerate(val_loader), total=len(val_loader)):
+        images = images.to(device)
+        labels = labels.to(device)
+        #pdb.set_trace()
+        outputs = model(images)
 
 
 def quantization(title='optimize',
@@ -224,12 +201,10 @@ def quantization(title='optimize',
 
   data_dir = args.data_dir
   quant_mode = args.quant_mode
-  finetune = args.fast_finetune
   deploy = args.deploy
   batch_size = args.batch_size
-  subset_len = args.subset_len
   inspect = args.inspect
-  config_file = args.config_file
+  config_file = None
   target = args.target
   if quant_mode != 'test' and deploy:
     deploy = False
@@ -241,6 +216,7 @@ def quantization(title='optimize',
 
   model = resnet20_model_cifar.cpu()
   model.load_state_dict(torch.load(file_path, map_location=torch.device('cpu')))
+
   #change only the shape of the data
   input = torch.randn([batch_size, 3, 32, 32])
   ####################################################################################
@@ -256,11 +232,9 @@ def quantization(title='optimize',
 
 
   val_loader, _ = load_data(
-      subset_len=subset_len,
       batch_size=batch_size,
-      sample_method='random',
       data_dir=data_dir,
-      model_name=model_name)
+      )
    
   #calibration
   evaluate(quant_model, val_loader)
@@ -278,7 +252,7 @@ def quantization(title='optimize',
 
 if __name__ == '__main__':
 
-  model_name = 'resnet20_cifar'
+  model_name = args.model_name
   file_path = os.path.join(args.model_dir, model_name + '.pkl')
 
   feature_test = ' float model evaluation'
