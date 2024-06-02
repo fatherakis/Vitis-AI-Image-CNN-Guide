@@ -181,7 +181,7 @@ Main Files:
 
 
 Having covered all files. You can easily run predictions on your model by connecting to the board and running:
-``run_src.sh my_model.xmodel``
+``run_src.sh my_model``
 
 ## Credits
 
